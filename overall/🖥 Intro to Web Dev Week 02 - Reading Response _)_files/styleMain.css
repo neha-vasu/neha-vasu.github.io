@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  text-align: center;
+  font-family: didot, serif;
+
+  color: turquoise;
+}
+
+
+
+
+header {
+	font-family: didot, serif;
+
+  color: turquoise;
+  font-size: 25px;
+}
+
+p {
+	color: black;
+	background-color: lightcyan;
+	font-size: 18px;
+}
+
+
+img {
+  border: solid 10px;
+}
+figure {
+  background-color: green;
+}
+
+figcaption {
+  background-color: none;
+
+}
