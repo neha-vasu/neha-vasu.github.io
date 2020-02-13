@@ -1,0 +1,111 @@
+body{
+	background-image: url("heart.gif");
+	color: #FACA0F;
+	font-family: monospace;
+}
+
+img{
+  border: solid #FACA0F 20px;
+
+}
+
+
+
+.kpop.india {
+	position: absolute;
+	top: 25px;
+	/*bottom: 30px;
+	left: 15px;*/
+	right: 900px;
+	z-index:2;
+
+
+}
+
+.kpop.write {
+	position: absolute;
+	bottom: 500px;
+	/*bottom: 75px;
+	left: 400px;*/
+	right: 950px;
+	z-index:2;
+	
+}
+
+.kpop.love {
+	position: absolute;
+	bottom: 500px;
+	/*bottom: 600px;
+	left: 195px;*/
+	right: 150px;
+	z-index:2;
+	
+}
+
+.kpop.happy {
+	position: absolute;
+	top: 250px;
+	
+	right: 62px;
+	z-index:2;	
+	
+}
+
+.kpop.art {
+	position: absolute;
+	bottom: 700px;
+right: 5px;
+z-index: 2;
+
+}
+
+/*.art {
+	top: 85px;
+	bottom: 45px;
+	left: 95px;
+	right: 20px;
+	z-index:-1;
+	border: solid blue 10px;
+
+
+}*/
+
+.kpop.sing {
+	position: absolute;
+	bottom: 575px;
+	
+	right: 325px;
+	z-index:3;
+	}
+
+.kpop.happy {
+	position: absolute;
+	top: 800px;
+	
+	right: 350px;
+	z-index:3;
+	
+}
+.kpop.kpopp {
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	bottom: 700px;
+	
+	right: 1200px;
+	z-index:3;
+	
+
+}
+
+.kpop {
+	position: absolute;
+	background-color: black;
+	/*top: 400px;
+	bottom: 250px;
+	left: 400px;
+	right: 50px;
+	z-index:-1;*/
+	border: solid yellow 10px;
+
+}

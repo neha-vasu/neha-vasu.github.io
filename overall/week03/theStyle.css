@@ -1,0 +1,44 @@
+body{
+	background-color: pink;
+	font-family: Courier New;
+
+}
+
+h3 {
+	font-family: Courier New;
+	font-size: 50px;
+	text-decoration: line-through;
+}
+
+a{
+	font-size: 36px;
+	text-decoration: none;
+}
+
+a:visited  {
+	color:rgba(0, 255, 0);
+}
+
+a:hover{ 
+color: rgba (255, 0, 0);
+font-size: 76 px;
+ }
+
+#theAuthor {
+	background-color: green;
+	padding: 5vw;
+}
+
+p {
+	background-color: orange;
+	padding: 10vh;
+	border: solid black 20px;
+	margin: 20vw;
+}
+
+.theseP
+{
+	font-weight: bold;
+	border-radius: 25px;
+	border: dotted 10px;
+}
