@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  text-align: right;
+  margin: 100px;
+  
+}
+header{
+  background-color: gold;
+}
+
+.aside {
+  display: inline-block;
+  float: right;
+  position: relative;
+  width: 45%;
+}
+h1 {
+ font-family: 'Cantata One', serif;
+  color: black;
+  text-shadow: 4px 4px white;
+  margin-right: 25px;
+  font-size: 75px;
+}
+
+
+.week1{
+  width: 483px;
+  background-color: black;
+  color: gold;
+  font-family: 'Francois One', sans-serif;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.week1:hover {
+  box-shadow:
+                1px 1px gold,
+                2px 2px gold,
+                3px 3px gold;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+.week1 > a
+{
+  color : white;
+}
+
+.break 
+{
+  color: white;
+}
+
+p: first-letter{
+  display: block;
+  float: left;
+  margin:3px;
+  color: gold;
+  font-size: 300%;
+}
+img {
+  border: solid gold 10px;
+}

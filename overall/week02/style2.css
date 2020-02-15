@@ -1,7 +1,7 @@
 body {
   background-color: white;
   text-align: right;
- 
+  margin: 100px;
   
 }
 header{
@@ -52,91 +52,29 @@ h1 {
 {
   color: white;
 }
-
-.flower
-{
-  width: 400px;
-  height: auto;
-  top: 475px;
-  left: 75px;
-  position: absolute;
-
-  
-}
-
-.psychic {
-  width: 300px;
-  height: auto;
-  top: 375px;
-  left: 350px;
-  position: absolute;
-  z-index:4;
-}
-.crop {
-  width: 300px;
-  height: auto;
-  top: 225px;
-  left: 600px;
-  position: absolute;
-}
-.happy {
-  width: 350px;
-  height: auto;
-  top: 220px;
-  left: 40px;
-  position: absolute;
-  z-index: 3;
-}
-.wooden {
-  width: 400px;
-  height: auto;
-  top: 50px;
-  left: 300px;
-  position: absolute;
-  z-index:2;
-}
-
-
-
-
-
-
-
-
-
-/*body {
-  background-color: white;
-  text-align: center;
-  font-family: didot, serif;
-
-  color: turquoise;
-}
-
-
-
-
-header {
-	font-family: didot, serif;
-
-  color: turquoise;
-  font-size: 25px;
+h3 {
+  /*color: gold;*/
+  font-size: 35px;
 }
 
 p {
-	color: black;
-	background-color: lightcyan;
-	font-size: 18px;
+  color: black;
+  background-color: gold;
+  opacity: 70%;
+  font-size: 25px;
 }
 
 
-img {
-  border: solid 10px;
-}
-figure {
-  background-color: green;
-}
+.web
+{
+  width: 400px;
+  height: auto;
+  border: solid gold 10px;
 
-figcaption {
-  background-color: none;
-
-}*/
+}
+.cam
+{
+  width:400px;
+  height: auto;
+  border: solid gold 10px;
+}
