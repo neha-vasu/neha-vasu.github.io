@@ -1,0 +1,19 @@
+body{
+ /*background-color: black;*/
+}
+img {
+	width: 40vw;
+	display: block;
+
+}
+img:hover
+{
+	display: none;
+}
+p{
+	/*color: white;*/
+}
+
+#theFlex {
+	display: flex;
+}
