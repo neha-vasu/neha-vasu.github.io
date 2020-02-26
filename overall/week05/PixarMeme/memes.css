@@ -1,0 +1,87 @@
+body{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+h2
+{font-family:"Comic Sans MS", "Comic Sans", cursive;
+color: white;
+text-align: left;
+}
+
+a:visited
+{
+	color:white;
+
+}
+a:hover{
+	color:yellow;
+}
+#pos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10vh;
+}
+#pos1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5vh;
+}
+
+.example_c {
+color: white !important;
+text-transform: lowercase;
+text-decoration: none;
+text-shadow: 4px 4px gold;
+/*background: #ffffff;*/
+background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);
+padding: 20px;
+/*border: 4px solid #494949 !important;*/
+border: 5px dashed black !important;
+display: flex;
+transition: all 0.4s ease 0s;
+font-family:"Comic Sans MS", "Comic Sans", cursive;
+box-shadow: 25px 25px gold;
+font-size: 50px;
+width: 15vw;
+height: 15vh;
+/*top: 650px;
+left: 1400px;
+position: absolute;*/
+}
+.example_c.two{
+ 
+background-image: url(https://d23.com/app/uploads/2019/05/1180w-600h_052919_up-anniversary-facts-780x440.jpg);
+
+}
+.example_c.three{
+background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/07/11/findingnemo-rex.jpg?w968h681)
+}
+
+.example_c:hover {
+background-image: url(https://media3.giphy.com/media/cituf0Vb5FYSk/giphy.gif);
+color: #ffffff !important;
+text-transform: lowercase;
+
+
+border-color: white !important;
+transition: all 0.4s ease 0s;
+/*font-family: 'Press Start 2P', cursive;*/
+font-family:"Comic Sans MS", "Comic Sans", cursive;
+box-shadow: 25px 25px white;
+text-shadow: 4px 4px #FECB64;
+}
+
+.example_c.two:hover{
+ 
+background-image: url(https://media3.giphy.com/media/hNU4HmhtpMPTO/giphy.gif);
+
+}
+.example_c.three:hover{
+background-image: url(https://media.giphy.com/media/104hl2rY3o8XMk/giphy.gif);
+}
+

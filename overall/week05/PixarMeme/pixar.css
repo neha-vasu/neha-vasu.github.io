@@ -1,0 +1,157 @@
+body{
+	/*background-color: black;*/
+	background-image: url(https://s3.amazonaws.com/kulturehub-blob/uploads/2019/12/babyyoda-e1575588080273-770x385.jpg);
+	display: flex;
+	justify-content: space-around;
+align-content: center;
+flex-direction: row;
+text-align: center;
+flex-wrap: wrap;
+}
+h2
+{font-family:"Comic Sans MS", "Comic Sans", cursive;
+color: black;
+text-align: left;
+}
+a:visited
+{
+	color:black;
+
+}
+a:hover{
+	color:blue;
+}
+
+/*.main{
+	color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: space-around;
+
+}*/
+.example_c {
+color: gold !important;
+text-transform: lowercase;
+text-decoration: none;
+text-shadow: 4px 4px white;
+/*background: #ffffff;*/
+background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);
+padding: 20px;
+border: 5px dashed black !important;
+display: flex;
+transition: all 0.4s ease 0s;
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Press Start 2P', cursive;*/
+font-family:"Comic Sans MS", "Comic Sans", cursive;
+box-shadow: 25px 25px gold, 25px 25px white, 25px 25px black;
+font-size: 50px;
+/*justify-content: flex-start;*/
+margin: 5vw;
+width: 25vw;
+height: 25vh;
+/*justify-content: space-around;
+align-content: center;
+flex-direction: row;
+text-align: center;
+flex-wrap: wrap;*/
+/*top: 650px;
+left: 1400px;
+position: absolute;*/
+}
+
+.example_c:hover {
+color: #ffffff !important;
+text-transform: lowercase;
+background: #FE6F8C;
+background-image: url(https://media3.giphy.com/media/cituf0Vb5FYSk/giphy.gif);
+border-color: white !important;
+transition: all 0.4s ease 0s;
+/*font-family: 'Press Start 2P', cursive;*/
+font-family:"Comic Sans MS", "Comic Sans", cursive;
+box-shadow: 25px 25px white;
+text-shadow: 4px 4px #FECB64;
+}
+
+.example_c.two{
+/*color: red !important;
+text-transform: uppercase;
+text-decoration: none;
+text-shadow: 4px 4px gold;*/
+/*background: #ffffff;*/
+background-image: url(https://d23.com/app/uploads/2019/05/1180w-600h_052919_up-anniversary-facts-780x440.jpg);
+padding: 20px;
+/*border: 4px solid #494949 !important;*/
+/*display: flex;
+transition: all 0.4s ease 0s;
+font-family: 'Press Start 2P', cursive;
+box-shadow: 25px 25px gold;
+font-size: 50px;
+justify-content: flex-start;
+margin: 5vw;
+width: 50vw;
+height: 50vh;
+align-content: flex-start;
+text-align: center;*/
+/*top: 650px;
+left: 1400px;
+position: absolute;*/
+}
+
+.example_c.two:hover {
+/*color: #ffffff !important;*/
+/*background: #FE6F8C;*/
+background-image: url(https://media3.giphy.com/media/hNU4HmhtpMPTO/giphy.gif);
+/*border-color: #FE6F8C !important;
+transition: all 0.4s ease 0s;
+font-family: 'Press Start 2P', cursive;
+box-shadow: 25px 25px #ffffff;
+text-shadow: 4px 4px #FECB64;
+*/
+}
+
+.example_c.three:hover
+{
+	background-image: url(https://media.giphy.com/media/104hl2rY3o8XMk/giphy.gif);
+}
+
+.example_c.three
+{
+	background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/07/11/findingnemo-rex.jpg?w968h681);
+}
+
+
+
+/*.main.incred {
+ 
+  background-image: incredibles/main.jpg;
+}*/
+
+/*.main.incred:hover
+{
+	background-color:black;
+	color: none;
+
+}*/
+/*.main.up
+{
+background-image: up/main.jpg;
+}*/
+/*.main.up:hover
+{
+	background-image:gif.gif;
+	color: none;
+
+}*/
+
+/*.main.nemo{
+background-image: nemo/main.jpg;
+}*/
+/*.main.nemo:hover
+{
+	background-image:gif.gif;
+	color: none;
+
+}
+*/
