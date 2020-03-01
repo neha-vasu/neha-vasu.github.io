@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  background-image: url(https://media.giphy.com/media/2SYpZ92iLQsF6QZl5u/giphy.gif);
+  font-family: 'Shrikhand' ;
+  background-size: cover;
+}
+.contain{
+	display: flex;
+	justify-content: center;
+	
+}
+p{
+	background-color: white;
+  padding: 20px;
+  box-shadow: 40px 40px #d2a1f7;
+  color: black;
+   margin: 125px;
+   font-size: 30px;
+   text-shadow: 2px 2px pink;
+/*font-family: 'Martel Sans', sans-serif;*/
+/*position: absolute;
+top: 950px;
+left: 20px;*/
+
+/*font-family: 'Inria Serif', serif;*/
+font-family: 'Shrikhand', sans-serif;
+text-align: center;}

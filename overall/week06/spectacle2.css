@@ -1,0 +1,52 @@
+
+body {
+  background-color: black;
+}
+  .clip-text {
+  font-family: 'Shrikhand' ;
+  background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  -webkit-background-clip: text;
+  color: transparent; // set to transparent, otherwise won't see the background
+  
+  width: 1500px;
+  height: 1500px;
+  box-sizing: border-box;
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+}
+
+.example_c {
+
+  font-family: 'Shrikhand' ;
+  background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+color: white !important;
+text-transform: lowercase;
+text-decoration: none;
+text-shadow: 4px 4px black;
+background:#d2a1f7;
+/*background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);*/
+padding: 20px;
+/*border: 5px dashed black !important;*/
+position: absolute;
+transition: all 0.4s ease 0s;
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family:"Comic Sans MS", "Comic Sans", cursive;*/
+box-shadow: 25px 25px white, 25px 25px white, 25px 25px black;
+font-size: 25px;
+/*justify-content: flex-start;*/
+margin: 5vw;
+width: 7vw;
+height: 3vh;
+left: 150vh;
+top: 1vh;
+}

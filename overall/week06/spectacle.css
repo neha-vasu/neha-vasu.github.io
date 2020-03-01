@@ -1,0 +1,103 @@
+/*body{
+	background-color: black;
+}
+	/*display: flex;
+	flex-direction: column;
+}*/
+	
+	/*img {
+		border-radius: 20%;
+	}
+#pos{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10vh;}
+
+	.color {
+  background-blend-mode: color;
+}
+
+.darken {
+  background-blend-mode: darken;
+}
+
+.screen {
+  background-blend-mode: screen;
+}*/
+/*body {
+  padding: 0;
+  background-image: url(https://miro.medium.com/max/600/0*Shjk1YB9oePtU9V0.jpg);
+  background-size: cover;
+
+}
+header {
+  padding: 120px 50px 170px;
+  }
+
+h1 {
+ font-family: 'Shrikhand', ;
+  font-size: 130px;
+  color: #d2a1f7;
+  mix-blend-mode: screen;
+  padding: 0;
+  margin: 0;
+  line-height: 0.5;
+}
+*/
+
+
+
+body {
+  padding: 0;
+  background-image: url(https://media1.giphy.com/media/aqkJ9q160Zmta/source.gif);
+  font-family: 'Shrikhand' ;
+  background-size: cover;
+}
+header {
+  padding: 120px 50px 170px;
+  background-image: url(https://miro.medium.com/max/600/0*Shjk1YB9oePtU9V0.jpg);
+  background-size: cover;
+}
+header h1 {
+  font-family: 'Shrikhand' ;
+  text-shadow: 4px 4px white;
+  font-size: 130px;
+  color: #d2a1f7;
+  mix-blend-mode: screen;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.example_c {
+color: white !important;
+text-transform: lowercase;
+text-decoration: none;
+text-shadow: 4px 4px black;
+background:#d2a1f7;
+
+  font-family: 'Shrikhand' ;
+/*background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);*/
+padding: 20px;
+/*border: 5px dashed black !important;*/
+position: absolute;
+transition: all 0.4s ease 0s;
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family:"Comic Sans MS", "Comic Sans", cursive;*/
+box-shadow: 25px 25px white, 25px 25px white, 25px 25px black;
+font-size: 50px;
+/*justify-content: flex-start;*/
+margin: 5vw;
+width: 15vw;
+height: 10vh;
+left: 650px;
+}
+
+
+
+
+
+
+
+
