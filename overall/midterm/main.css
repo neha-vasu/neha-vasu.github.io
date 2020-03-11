@@ -1,0 +1,50 @@
+body{
+	background-color: gold;
+
+}
+	.icons{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 2vh;
+	flex-grow: 1;
+}
+#about{
+	width: 15vh;
+	height:auto;.recCover img {
+  width: 20vw;
+  z-index: 0;
+  padding: .1vw;
+  /*border: 5px solid white;*/
+}
+#about img:hover {
+ /* z-index: 1;*/
+  /*width: 25vw;*/
+  transition: all 1.5s;
+  transform: scale(1.3);
+  /*border: 10px solid white;*/
+}
+
+
+.loveYrself
+{
+	background-color: white;
+	font-family: 'Bungee', cursive;
+	font-size: 10vh;
+	color: black;
+	text-align: center;
+	width: 66vw;
+
+	/*width: 20vw;
+	height: auto;*/
+
+}
+.daily
+{
+	background-color: white;
+	font-family: 'Bungee', cursive;
+	font-size: 5vh;
+	color: black;
+	text-align: center;
+	width: 40vw;
+}
