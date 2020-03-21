@@ -1,0 +1,131 @@
+body{
+	background-image: url("Lemons1.png");
+
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-size: cover;
+  font-size: 12vw;
+  color: transparent;
+
+  
+}
+
+
+
+/*.aside {
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	
+	position: absolute;
+	width: 60vw;
+	height: 15vh;
+	top: 22vw;
+	left: 33vh;
+	text-align: center;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 1.5vw;
+	letter-spacing: 3;
+
+}*/
+
+/*.second {
+	background-color: black;
+	color: white;
+	position: absolute;
+	width: 45vw;
+	height: 15vh;
+	top: 32vw;
+	left: 40vh;
+	text-align: center;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 1.5vw;
+	letter-spacing: 3;
+}
+*/
+.buttons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*justify-content: flex-start;*/
+	margin: 5vh;
+
+}
+#about {
+  position:relative;
+  height:50px;
+  width:46px;
+  margin:0 auto;
+}
+
+#about img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in;
+  -moz-transition: opacity 0.5s ease-in;
+  -o-transition: opacity 0.5s ease-in;
+  transition: all 0.5s ease 0s;
+}
+
+#about img.top:hover {
+  opacity:0;
+}
+#proj {
+  position:relative;
+  height:50px;
+  width:46px;
+  margin:0 auto;
+}
+
+#proj img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: all 0.5s ease 0s;
+}
+
+#proj img.top:hover {
+  opacity:0;
+}
+#bucket {
+  position:relative;
+  height:50px;
+  width:46px;
+  margin:0 auto;
+}
+
+#bucket img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: all 0.5s ease 0s;
+}
+
+#bucket img.top:hover {
+  opacity:0;
+}
+
+#love {
+  position:relative;
+  height:50px;
+  width:48px;
+  margin:0 auto;
+}
+
+#love img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: all 0.5s ease 0s;
+}
+
+#love img.top:hover {
+  opacity:0;
+}
