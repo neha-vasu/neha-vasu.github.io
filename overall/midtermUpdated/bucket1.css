@@ -1,0 +1,252 @@
+
+
+/*this is the pos of LA pin*/
+.LA
+{
+	position: absolute;
+	top: 41vw;
+	left: 22vw;
+	width: 7vw;
+	height: auto;
+transition: all .2s ease-in-out;
+}
+.LA:hover {
+	transition: all .2s ease-in-out;
+transform: scale(1.5);
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.LAtext
+{
+	
+	text-align: center;
+	font-size: 1vw;
+}
+
+/*this is the pos of Paris pin*/
+.paris
+{
+	position: absolute;
+	top: 38vw;
+	left: 46vw;
+	width: 4vw;
+	height: auto;
+transition: all .2s ease-in-out;
+}
+.paris:hover {
+	transition: all .2s ease-in-out;
+transform: scale(1.5);
+}
+
+
+.Paristext
+{
+	
+	text-align: left;
+	font-size: 1vw;
+	text-align: center;
+}
+
+/*this is the pos of Tokyo pin*/
+.Tokyo
+{
+	position: absolute;
+	top: 40.5vw;
+	left: 72vw;
+	width: 4vw;
+	height: auto;
+	transition: all .2s ease-in-out;
+}
+.Tokyo:hover {
+	transition: all .2s ease-in-out;
+transform: scale(1.5);
+}
+.Tokyotext
+{
+	
+	text-align: left;
+	font-size: 1vw;
+	text-align: center;
+}
+
+@media(max-width: 800px) {
+ 
+body{
+	background-color: black;
+}
+
+
+}
+
+header{
+	background-image: url("Lemons.png");
+
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-size: cover;
+  font-size: 3vw;
+  color: transparent;
+  
+}
+body{
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	font-size: 1vw;
+}
+
+#map
+{
+	width: 120vh;
+	height: auto;
+	position: absolute;
+	top: 45vh;
+	left: 25vh;
+	/*border: 1vw solid black;*/
+}
+strong{
+	color: #0F847E;
+	font-weight: 900;
+}
+.flexLeft
+{
+	position: absolute;
+	top: 60vw;
+	left: 3vw;
+	font-size: 1.25vw;
+	line-height: 1.25;
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: justify-start;
+	margin-left: 15vw; 
+	color: white;
+	background-color: black;
+	padding: 5vh;
+}
+
+#title
+{
+	/*color: #0DD3CD;
+	font-size: 4vw;
+	text-shadow: 2px 2px #0F847E;
+	*/
+	letter-spacing: 2vw;
+	color: #F4F40F;
+	font-size: 4vw;
+	font-family: 'Chango', cursive;
+	text-shadow: 4px 4px black;
+	position: absolute;
+	top: 18vw;
+	left: 25vw;
+}
+.socks
+{
+	/*background-image: url(sockHeart.jpg);
+	background-size: cover;
+    background-color: #F4F40F;
+    background-blend-mode: multiply;*/
+	width: 35vh;
+	height: auto;
+	position: absolute;
+	top: 54vh;
+	left: 75vh;
+	z-index: 2;
+	/*border: 1vw solid black;*/
+}
+.logo
+{
+position: absolute;
+width: 10vw;
+height: auto;
+top: 2vw;
+left: 4vh;
+}
+
+.example_c {
+color: black;
+
+text-decoration: none;
+text-shadow: 4px 4px #F4F40F;
+background: white;
+padding: 20px;
+border: 4px solid black !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+
+/*box-shadow: 25px 25px #FE6F8C;
+*/font-size:1.5vw;
+
+
+/*top: 650px;
+left: 1400px;
+position: absolute;*/
+
+}
+
+.example_c.about{
+  /*top: 650px;
+left: 1450px;
+position: absolute;*/
+
+text-shadow: none;
+position: absolute;
+left: 30vw;
+top: 7vw;
+}
+.example_c.proj{
+  /*top: 650px;
+left: 1450px;
+position: absolute;*/
+
+text-shadow: none;
+position: absolute;
+left: 40vw;
+top: 7vw;
+}
+.example_c.bucket{
+  /*top: 650px;
+left: 1450px;
+position: absolute;*/
+color: white;
+background: black;
+text-shadow: none;
+position: absolute;
+left: 51vw;
+top: 7vw;
+}
+.example_c.bucket:hover{
+  /*top: 650px;
+left: 1450px;
+position: absolute;*/
+color: white;
+background: black;
+border: 4px 4px solid black;
+text-shadow: none;
+position: absolute;
+left: 51vw;
+top: 7vw;
+}
+.example_c.love{
+  /*top: 650px;
+left: 1450px;
+position: absolute;*/
+
+text-shadow: none;
+position: absolute;
+left: 63vw;
+top: 7vw;
+}
+.example_c:hover {
+color: #ffffff !important;
+background: black;
+border: 4px solid white !important;
+transition: all 0.4s ease 0s;
+text-shadow: none;
+
+/*box-shadow: 25px 25px #ffffff;*/
+/*text-shadow: 2px 2px #F4F40F;*/
+}

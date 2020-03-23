@@ -1,18 +1,19 @@
-/*this is the img pos of the "calling a loved one"*/
-.call {
+/*this is the img pos of the "volunteer at a charity"*/
+
+.volunteer {
 	position: absolute;
 	top: 85vw;
 	left: 65vw;
 
 }
 
-/*this is the text of the "calling a loved one"*/
-.callText
+/*this is the text of the "volunteer at a charity"*/
+.volunteerText
 {
 	background-color: transparent;
 
-	text-shadow: 2px 2px #F4F40F;
-	color: black;
+	/*text-shadow: 2px 2px white;*/
+	color: white;
 	font-size: 1.5vw;
 	padding: 3vh;
 	position: absolute;
@@ -22,10 +23,11 @@
 	left: 67vw;
 	font-family: 'Chango', cursive;
 }
-/*this is the decorative rectangle of the "calling a loved one"*/
+
+/*this is the rectangle of the "volunteer at a charity"*/
 .decor.p
 {
-	background-color: black;
+	background-color: #F4F40F;
 	
 	padding: 1vh;
 	position: absolute;
@@ -36,7 +38,6 @@
 	z-index: -1;
 }
 
-/*this is the rectangle padding at the bottom of the page*/
 .decor.z
 {
 	background-color: transparent;
@@ -51,62 +52,62 @@
 }
 
 
-/*this is the img pos of the "reading empowering books"*/
-.book {
+
+/*this is the img pos of the "comfort someone"*/
+.comfort {
 	position: absolute;
 	top: 40vw;
 	left: 15vw;
 
 }
 
-/*this is the text of the "reading empowering books"*/
-.bookText
+/*this is the text of the "comfort someone"*/
+.comfortText
 {
 	background-color: transparent;
 
-	text-shadow: 2px 2px #F4F40F;
-	color: ;
+	/*text-shadow: 2px 2px white;*/
+	color: white;
 	font-size: 2vw;
 	padding: 3vh;
 	position: absolute;
 	width: 25vw;
 	height: 10vh;
-	top: 57vw;
+	top: 60vw;
 	left: 27vw;
 	font-family: 'Chango', cursive;
 }
 
-/*this is the decorative rectangle of the "reading empowering books"*/
+
+/*this is the rectangle of the "comfort someone"*/
 .decor
 {
-	background-color: black;
+	background-color: #F4F40F;
 	
 	padding: 1vh;
 	position: absolute;
 	width: 20vw;
 	height: 25vw;
-	top: 35vw;
+	top: 32vw;
 	left: 10vw;
 	z-index: -1;
 }
 
-/*this is the img pos of the "writing 
-yourself a love letter"*/
-.letter
+/*this is the img pos of the "run a marathon for charity"*/
+.run
 {
 	position: absolute;
 	top: 100vw;
 	left: 13vw;
 }
 
-/*this is the text of the "writing 
-yourself a love letter"*/
-.letterText
+/*this is the text of the "run a marathon for charity"*/
+.runText
 {
 	background-color: transparent;
 
-	text-shadow: 2px 2px #F4F40F;
-	color: black;
+	/*text-shadow: 2px 2px #F4F40F;*/
+	color: white;
 	font-size: 1.5vw;
 	padding: 3vh;
 	position: absolute;
@@ -117,26 +118,22 @@ yourself a love letter"*/
 	font-family: 'Chango', cursive;
 }
 
-/*this is the decorative rectangle of the "writing 
-yourself a love letter"*/
+/*this is the rectangle of the "run a marathon for charity"*/
 .decor.c
 {
-	background-color: black;
+	background-color: #F4F40F;
 	
 	padding: 1vh;
 	position: absolute;
 	width: 20vw;
 	height: 20vw;
-	top: 110vw;
-	left: 18vw;
+	top: 115vw;
+	left: 6vw;
 	z-index: -1;
 }
 
 
-
-
-
-
+/*these are the grid settings for the submenu of the 4 subsections*/
 .submenu{
     width: 90%;
     margin: 0 auto;
@@ -148,11 +145,13 @@ yourself a love letter"*/
 	font-size: 1.5vw;
 }
 
-/*this is to make sure that the link doesn't have a hyperlink color*/
+/*this is to make sure that the link 
+doesn't have a hyperlink color*/
 a{
 	color: inherit;
 	text-decoration: none;
 }
+
 
 /*these are the general settings for the submenu items */
 .obj{
@@ -162,6 +161,9 @@ a{
     padding: 10px;
     font-family: 'Playfair Display', serif;
 }
+
+/*these are the settings for each individual menu item */
+
 .obj4{
     display: flex;
     justify-content: center;
@@ -175,6 +177,7 @@ a{
     justify-content: center;
    grid-column-start: 6;
    grid-column-end: 6;
+   color: white;
 
 }
 
@@ -183,9 +186,7 @@ a{
     justify-content: center;
     grid-column-start: 5;
    grid-column-end: 5;
-   color:black;
-    text-shadow: 2px 2px #F4F40F;
-
+   
 }
 
 .obj1{
@@ -200,7 +201,7 @@ grid-column-start: 4;
 /*these are the settings for each individual menu item when
 hovered over, changing its colors and responding to the user*/
 .obj4:hover{
-   color: black;
+   color: white;
    text-shadow: 2px 2px #F4F40F;
    grid-column-start: 7;
    grid-column-end: 7;
@@ -208,15 +209,15 @@ hovered over, changing its colors and responding to the user*/
 
 
 .obj3:hover{
-    color: black;
-   text-shadow: 2px 2px #F4F40F;
+    color: #F4F40F;
+   text-shadow: 2px 2px black;
    grid-column-start: 6;
    grid-column-end: 6;
 }
 
 .obj2:hover{
-   color: #F4F40F;
-   text-shadow: 2px 2px black;
+   color: white;
+   text-shadow: 2px 2px #F4F40F;
    grid-column-start: 5;
    grid-column-end: 5;
     
@@ -224,7 +225,7 @@ hovered over, changing its colors and responding to the user*/
 
 .obj1:hover{
     
-    color: black;
+    color: white;
    text-shadow: 2px 2px #F4F40F;
    grid-column-start: 4;
    grid-column-end: 4;
@@ -234,38 +235,33 @@ hovered over, changing its colors and responding to the user*/
 
 
 header{
-	/*background-image: url("Lemons.png");*/
-
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
-  /*background-size: cover;*/
+	
   font-size: 2.5vw;
   background-color: white;
   color: transparent;
 
   
 }
+
 body{
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
 	font-size: 1vw;
-	background-image: url("backgdWord.png");
+	background-image: url("heart.jpg");
+	background-size: cover;
 	background-attachment: fixed;
 }
-/*I made the asset for the background of this page*/
 
 .title
 {
 	letter-spacing: 2vw;
-	color: black;
+	color: white;
 	font-size: 4vw;
 	font-family: 'Chango', cursive;
-	text-shadow: 4px 4px #F4F40F;
+	/*text-shadow: 4px 4px #F4F40F;*/
 	position: absolute;
 	top: 18vw;
-	left: 40vw;
-
-
+	left: 32vw;
 }
 
 /*this is the logo in the upper left corner*/
@@ -297,13 +293,9 @@ padding: 20px;
 border: 4px solid black !important;
 display: inline-block;
 transition: all 0.4s ease 0s;
-
-/*box-shadow: 25px 25px #FE6F8C;
-*/font-size:1.5vw;
-
+font-size:1.5vw;
 
 }
-
 
 .example_c.about:hover{
   /*top: 650px;
@@ -318,6 +310,7 @@ left: 30vw;
 top: 7vw;
 
 }
+
 .example_c.about{
   /*top: 650px;
 left: 1450px;
@@ -329,6 +322,7 @@ position: absolute;
 left: 30vw;
 top: 7vw;
 }
+
 .example_c.proj:hover{
   /*top: 650px;
 left: 1450px;
@@ -341,6 +335,7 @@ position: absolute;
 left: 40vw;
 top: 7vw;
 }
+
 .example_c.proj{
   /*top: 650px;
 left: 1450px;
@@ -382,3 +377,4 @@ text-shadow: none;
 /*box-shadow: 25px 25px #ffffff;*/
 /*text-shadow: 2px 2px #F4F40F;*/
 }
+

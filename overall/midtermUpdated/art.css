@@ -1,3 +1,5 @@
+/*this is the img pos of the "take photos a place you've never been"*/
+
 .photo {
 	position: absolute;
 	top: 80vw;
@@ -5,6 +7,7 @@
 
 }
 
+/*this is the text of the "take photos a place you've never been"*/
 .photoText
 {
 	background-color: transparent;
@@ -20,6 +23,8 @@
 	left: 60vw;
 	font-family: 'Chango', cursive;
 }
+
+/*this is the decorative rectangle of the "take photos a place you've never been"*/
 .decor.p
 {
 	background-color: #0DD3CD;
@@ -33,6 +38,7 @@
 	z-index: -1;
 }
 
+/*this is the rectangle padding at the bottom of the page*/
 .decor.z
 {
 	background-color: transparent;
@@ -45,6 +51,8 @@
 	left: 40vw;
 	z-index: -1;
 }
+
+/*this is the img pos of the "paint a jar"*/
 .jar {
 	position: absolute;
 	top: 45vw;
@@ -52,6 +60,7 @@
 
 }
 
+/*this is the text of the "paint a jar"*/
 .jarText
 {
 	background-color: transparent;
@@ -67,6 +76,8 @@
 	left: 27vw;
 	font-family: 'Chango', cursive;
 }
+/*this is the decorative rectangle of the "paint a jar"*/
+
 .decor
 {
 	background-color: #0DD3CD;
@@ -80,6 +91,7 @@
 	z-index: -1;
 }
 
+/*this is the img pos of the "play-doh"*/
 .clay
 {
 	position: absolute;
@@ -87,6 +99,7 @@
 	left: 55vw;
 }
 
+/*this is the text of the "play-doh"*/
 .clayText
 {
 	background-color: transparent;
@@ -102,6 +115,8 @@
 	right: 30vw;
 	font-family: 'Chango', cursive;
 }
+
+/*this is the decorative rectangle of the "play-doh"*/
 .decor.c
 {
 	background-color: #0DD3CD;
@@ -114,6 +129,8 @@
 	left: 62vw;
 	z-index: -1;
 }
+
+/*these are the grid settings for the submenu of the 4 subsections*/
 .submenu{
     width: 90%;
     margin: 0 auto;
@@ -125,17 +142,23 @@
 	font-size: 1.5vw;
 }
 
+/*this is to make sure that the link doesn't have a hyperlink color*/
 a{
 	color: inherit;
 	text-decoration: none;
 }
+
+/*these are the general settings for the submenu items */
 .obj{
     background-color: transparent;
-    color: #0DD3CD;
-    text-shadow: 2px 2px white;
+    color: #F4F40F;
+    text-shadow: 2px 2px black;
     padding: 10px;
     font-family: 'Playfair Display', serif;
 }
+
+/*these are the settings for each individual menu item */
+
 .obj4{
     display: flex;
     justify-content: center;
@@ -164,14 +187,17 @@ a{
     display: flex;
     justify-content: center;
     color:black;
-    text-shadow: 2px 2px #0DD3CD;
+    text-shadow: 2px 2px #F4F40F;
     
 grid-column-start: 4;
    grid-column-end: 4;
 }
+
+/*these are the settings for each individual menu item when
+hovered over, changing its colors and responding to the user*/
 .obj4:hover{
    color: black;
-   text-shadow: 2px 2px #0DD3CD;
+   text-shadow: 2px 2px #F4F40F;
    grid-column-start: 7;
    grid-column-end: 7;
 }
@@ -179,14 +205,14 @@ grid-column-start: 4;
 
 .obj3:hover{
     color: black;
-   text-shadow: 2px 2px #0DD3CD;
+   text-shadow: 2px 2px #F4F40F;
    grid-column-start: 6;
    grid-column-end: 6;
 }
 
 .obj2:hover{
    color: black;
-   text-shadow: 2px 2px #0DD3CD;
+   text-shadow: 2px 2px #F4F40F;
    grid-column-start: 5;
    grid-column-end: 5;
     
@@ -194,7 +220,7 @@ grid-column-start: 4;
 
 .obj1:hover{
     
-    color: #0DD3CD;
+    color: #F4F40F;
    text-shadow: 2px 2px black;
    grid-column-start: 4;
    grid-column-end: 4;
@@ -204,46 +230,23 @@ grid-column-start: 4;
 
 
 header{
-	/*background-image: url("Lemons.png");*/
-
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
-  /*background-size: cover;*/
+	
   font-size: 2.5vw;
   background-color: white;
   color: transparent;
 
   
 }
+
+
 body{
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
 	font-size: 1vw;
 	background-color: #ACEFEA;
+	background-attachment: fixed;
 }
-.flexbox
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	/*margin-right: -200px auto;*/
-	
 
-}
-strong{
-	color: #0F847E;
-	font-weight: 900;
-}
-.flexLeft
-{
-	width: 30vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: justify-start;
-	margin-left: 20vw; 
-}
 
 .title
 {
@@ -254,36 +257,13 @@ strong{
 	text-shadow: 4px 4px black;
 	position: absolute;
 	top: 18vw;
-	left: 40vw;
+	left: 45vw;
 
- /* background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
-  background-size: cover;
-  background-position: center;*/
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-  
-  /*-webkit-background-clip: text;
-  color: transparent; // set to transparent, otherwise won't see the background
-  
-  width: 1500px;
-  height: 1500px;
-  box-sizing: border-box;
-  font-size: 58px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
+ 
   flex-shrink: 0;*/
 }
-.socks
-{
-	width: 40vh;
-	height: auto;
-	position: absolute;
-	top: 50vh;
-	left: 95vh;
-	border: 1vw solid black;
-}
+
+/*this is the logo in the upper left corner*/
 .logo
 {
 position: absolute;
@@ -293,6 +273,13 @@ top: 2vw;
 left: 4vh;
 }
 
+/*these next few buttons are for the standard menu 
+they transition between different colors for text, background and border
+I also made sure that the button that describes the page the 
+user is on is highlighted.
+
+I made the ease 0s so that the buttons respond quickly and are
+more lively.*/
 .example_c {
 color: black;
 
@@ -307,32 +294,10 @@ transition: all 0.4s ease 0s;
 /*box-shadow: 25px 25px #FE6F8C;
 */font-size:1.5vw;
 
-
-/*top: 650px;
-left: 1400px;
-position: absolute;*/
-
 }
-.eximple_c {
-color: black;
-
-text-decoration: none;
-text-shadow: 4px 4px #F4F40F;
-background: white;
-padding: 20px;
-/*border: 4px solid black !important;*/
-display: inline-block;
-transition: all 0.4s ease 0s;
-
-/*box-shadow: 25px 25px #FE6F8C;
-*/font-size:1.5vw;
 
 
-/*top: 650px;
-left: 1400px;
-position: absolute;*/
 
-}
 .example_c.about:hover{
   /*top: 650px;
 left: 1450px;
@@ -346,6 +311,7 @@ left: 30vw;
 top: 7vw;
 
 }
+
 .example_c.about{
   /*top: 650px;
 left: 1450px;
@@ -407,203 +373,8 @@ border: 4px solid white !important;
 transition: all 0.4s ease 0s;
 text-shadow: none;
 
-/*box-shadow: 25px 25px #ffffff;*/
-/*text-shadow: 2px 2px #F4F40F;*/
-}
-
-.eximple_c.art{
-color: white !important;
-text-transform: lowercase;
-text-decoration: none;
-text-shadow: none; 
-letter-spacing: 0.75vw;
-/*text-shadow: 4px 4px white;*/
-
-/*background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);*/
-/*padding: white 20px;*/
-/*border: 5px solid #F4F40F !important;
-*/ width: 14vw;
-     height: 14vw;
-      /*background: white;*/
-      background-image: url(art2.gif);
-      border-radius: 50%;
-display: block;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-transition: all 0.4s ease 0s;
-position: absolute;
-top: 30vw;
-left: 20vh;
-border: none;
-
-/*font-family: 'Press Start 2P', cursive;*/
-/*font-family: 'Press Start 2P', cursive;*/
-/*
-box-shadow: 25px 25px gold, 25px 25px white, 25px 25px black;
-font-size: 50px;
-/*justify-content: flexćstart;*/
-
-
-/*justify-content: space-around;
-align-content: center;
-flex-direction: row;
-text-align: center;
-flex-wrap: wrap;*/
-/*top: 650px;
-left: 1400px;
-position: absolute;*/
-}
-
-.eximple_c.art:hover {
-color: #ffffff !important;
-text-transform: lowercase;
-/*background: #FE6F8C;*/
-background-image: url(art2.gif);
-/*border-color: white !important;*/
-transition: all 0.4s ease 0s;
-/*font-family: 'Press Start 2P', cursive;*/
-font-weight:900;
-/*box-shadow: 5vw 5vw white;*/
-width: 25vw;
-     height: 25vw;
-     z-index: 5;
 
 }
 
-.eximple_c.word{
-color: white !important;
-text-transform: lowercase;
-text-decoration: none;
-text-shadow: none; 
-letter-spacing: 0.75vw;
-border-color: transparent;
-/*text-shadow: 4px 4px white;*/
-
-background-image: url(word4.gif);
-padding: 20px;
-/*border: 5px solid #F4F40F !important;
-*/ width: 14vw;
-     height: 14vw;
-      
-      border-radius: 50%;
-display: block;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-transition: all 0.4s ease 0s;
-position: absolute;
-top: 30vw;
-left: 55vh;
-}
-.eximple_c.word:hover {
-color: white !important;
-text-transform: lowercase;
-background-image: url(word4.gif);
-width: 25vw;
-     height: 25vw;
-transition: all 0.4s ease 0s;
-
-/*box-shadow: 5vw 5vw white;
-*/
-width: 25vw;
-     height: 25vw;
-     z-index: 5;
-
-}
-.eximple_c.kind{
-color: white !important;
-text-transform: lowercase;
-
-text-decoration: none;
-text-shadow: none; 
-letter-spacing: 0.75vw;
-border-color: transparent;
-/*text-shadow: 4px 4px white;*/
-background-image: url(kind2.gif);
-/*background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);*/
-padding: 20px;
-/*border: 5px solid #F4F40F !important;
-*/ width: 14vw;
-     height: 14vw;
-      
-      border-radius: 50%;
-display: block;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-transition: all 0.4s ease 0s;
-position: absolute;
-top: 30vw;
-left: 90vh;
-}
-.eximple_c.kind:hover {
-color: white !important;
-text-transform: lowercase;
-background-image: url(kind2.gif);
-
-transition: all 0.4s ease 0s;
-
-/*box-shadow: 5vw 5vw white;*/
-
-width: 25vw;
-     height: 25vw;
-     z-index: 5;
-}
-.eximple_c.rand{
-color: white !important;
-text-transform: lowercase;
-text-decoration: none;
-text-shadow: none; 
-border-color: transparent;
-letter-spacing: 0.75vw;
-/*text-shadow: 4px 4px white;*/
-background-image: url(rand.gif);
-/*background-image: url(https://images2.static-bluray.com/reviews/4076_1.jpg);*/
-padding: 20px;
-/*border: 5px solid #F4F40F !important;
-*/ width: 14vw;
-     height: 14vw;
-      
-      border-radius: 50%;
-display: block;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-transition: all 0.4s ease 0s;
-position: absolute;
-top: 30vw;
-left: 125vh;
-}
-.eximple_c.rand:hover {
-color: white !important;
-text-transform: lowercase;
-background-image: url(rand.gif);
-
-transition: all 0.4s ease 0s;
-
-/*box-shadow: 5vw 5vw white;*/
-
-width: 25vw;
-     height: 25vw;
-     z-index: 5;
-}
-/*#aboutG
-{
-	grid-column-start: 2;
-	grid-column-end: 5;
-}
-*/
-/*.example_c.next2{
-  top: 100px;
-left: 300px;
-position: absolute;
-}
-
-.example_c.back1{
-  top: 100px;
-left: 25px;
-position: absolute;
-}*/
 
 

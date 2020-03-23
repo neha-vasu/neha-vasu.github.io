@@ -1,3 +1,22 @@
+.down {
+  margin-top: 2vw;
+}
+
+
+.z
+{
+  background-color: transparent;
+  
+  padding: 1vh;
+  position: absolute;
+  width: 25vw;
+  height: 30vw;
+  top: 100vw;
+  left: 40vw;
+  z-index: -1;
+}
+
+
 header{
 	background-image: url("Lemons.png");
 

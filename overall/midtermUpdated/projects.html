@@ -3,20 +3,28 @@
 	<head>
 		<title> Projects </title>
     <link rel="shortcut icon" type="image/png" href="loveYourselfLogo.png"/>
+
      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
      <meta charset="utf-8">
+
     <link href="https://fonts.googleapis.com/css?family=Chango|Concert+One|Fredoka+One|Playfair+Display|Rubik+Mono+One|Titan+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="proj.css">
   </head>
   <header>
+<!-- this <a> is for the logo to lead you back to the first title page when clicked on 
 
+I also made the logo myself-->
     <a href = "main.html" > <img class = "logo" src = "loveYourselfLogo.png"> </a>
     <h1> hi </h1>
     <div class = "pos1">
     <div class="button_cont" align="right"><a class="example_c about"  href="about.html"  rel="nofollow noopener">  about </a></div>
 
 <div class="button_cont" align="right"><a class="example_c proj" href="projects.html"  rel="nofollow noopener"></div>  projects </a></div>
- <!-- <div class="dropdown">
+ <!-- I also tried to make a dropdown menu for the buttons that would
+  benefit from it but it didn't work after a lot of attempts -->
+
+<!-- <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
     <a href="art.html">Art</a>
@@ -40,17 +48,32 @@
 
 	<body>
      <main>
+<!-- These next buttons are the menu options under projects that I placed
+by hand because they would not let me make them bigger when I adjusted
+them to get bigger when hovered over. This took lots of time but
+I got it to work. I made sure they don't have a border and there
+were gifs for each theme that worked.
 
+The 4 subsections I made these buttons for were art, words, kindness
+and random.
+ -->
 
     <div class = "projDiv"> 
     
 </div>
   <div class = "title"> projects </div>
- <div class="button_cont" align="right"><a class="eximple_c art"  href="art.html"  rel="nofollow noopener">  art </a></div>
-<div class="button_cont" align="right"><a class="eximple_c word"  href="word.html"  rel="nofollow noopener">  words </a></div>
+ <div class="button_cont" align="right"><a class="eximple_c art"  href="art.html"  rel="nofollow noopener"> <!-- this class is to move the text on the circle buttons down 
+so the entire word would fit --> 
+<p class = "down">art</p> </a></div>
 
- <div class="button_cont" align="right"><a class="eximple_c kind"  href="kind.html"  rel="nofollow noopener">  kindness </a></div>
- <div class="button_cont" align="right"><a class="eximple_c rand"  href="rand.html"  rel="nofollow noopener">  random </a></div>
+<div class="button_cont" align="right"><a class="eximple_c word"  href="word.html"  rel="nofollow noopener"> <p class = "down"> words</p> </a></div>
+
+ <div class="button_cont" align="right"><a class="eximple_c kind"  href="kind.html"  rel="nofollow noopener">  <p class = "down">kindness</p> </a></div>
+
+ <div class="button_cont" align="right"><a class="eximple_c rand"  href="rand.html"  rel="nofollow noopener"> <p class = "down"> random </p></a></div>
+<!-- this mysterious box below is what gives a ton of extra scrolling -->
+
+  <div class = "z"> </div>
 </main>
 </body>
 </html>

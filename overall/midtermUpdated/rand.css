@@ -1,42 +1,42 @@
-/*this is the img pos of the "calling a loved one"*/
-.call {
+/*this is the img pos of the "face masks"*/
+.mask {
 	position: absolute;
-	top: 85vw;
-	left: 65vw;
+	top: 100vw;
+	left: 50vw;
 
 }
 
-/*this is the text of the "calling a loved one"*/
-.callText
+/*this is the text of the "face masks"*/
+.maskText
 {
 	background-color: transparent;
 
-	text-shadow: 2px 2px #F4F40F;
-	color: black;
+	text-shadow: 2px 2px black;
+	color: #0DD3CD;
 	font-size: 1.5vw;
 	padding: 3vh;
 	position: absolute;
 	width: 30vw;
 	height: 10vh;
-	top: 85vw;
-	left: 67vw;
+	top: 100vw;
+	left: 60vw;
 	font-family: 'Chango', cursive;
 }
-/*this is the decorative rectangle of the "calling a loved one"*/
+
+/*this is the rectangle of the "face masks"*/
 .decor.p
 {
-	background-color: black;
+	background-color: #F4F40F;
 	
 	padding: 1vh;
 	position: absolute;
 	width: 25vw;
 	height: 30vw;
-	top: 77vw;
-	left: 55vw;
+	top: 95vw;
+	left: 40vw;
 	z-index: -1;
 }
 
-/*this is the rectangle padding at the bottom of the page*/
 .decor.z
 {
 	background-color: transparent;
@@ -45,98 +45,96 @@
 	position: absolute;
 	width: 25vw;
 	height: 30vw;
-	top: 125vw;
+	top: 100vw;
 	left: 40vw;
 	z-index: -1;
 }
 
 
-/*this is the img pos of the "reading empowering books"*/
-.book {
+/*this is the img pos of the "baking cookies"*/
+.cookie {
 	position: absolute;
-	top: 40vw;
+	top: 55vw;
 	left: 15vw;
 
 }
 
-/*this is the text of the "reading empowering books"*/
-.bookText
+
+/*this is the text of the "baking cookies"*/
+.cookieText
 {
 	background-color: transparent;
 
-	text-shadow: 2px 2px #F4F40F;
-	color: ;
+	text-shadow: 2px 2px black;
+	color: #0DD3CD;
 	font-size: 2vw;
 	padding: 3vh;
 	position: absolute;
-	width: 25vw;
+	width: 20vw;
 	height: 10vh;
-	top: 57vw;
-	left: 27vw;
+	top: 75vw;
+	left: 32vw;
 	font-family: 'Chango', cursive;
 }
 
-/*this is the decorative rectangle of the "reading empowering books"*/
+/*this is the rectangle of the "baking cookies"*/
+
 .decor
 {
-	background-color: black;
+	background-color: #F4F40F;
 	
 	padding: 1vh;
 	position: absolute;
 	width: 20vw;
 	height: 25vw;
-	top: 35vw;
+	top: 50vw;
 	left: 10vw;
 	z-index: -1;
 }
 
-/*this is the img pos of the "writing 
-yourself a love letter"*/
-.letter
+
+/*this is the img pos of the "road trip"*/
+.road
 {
 	position: absolute;
-	top: 100vw;
-	left: 13vw;
+	top: 35vw;
+	left: 60vw;
 }
-
-/*this is the text of the "writing 
-yourself a love letter"*/
-.letterText
+/*this is the text of the "road trip"*/
+.roadText
 {
 	background-color: transparent;
 
-	text-shadow: 2px 2px #F4F40F;
-	color: black;
+	text-shadow: 2px 2px black;
+	color: #0DD3CD;
 	font-size: 1.5vw;
 	padding: 3vh;
 	position: absolute;
 	width: 20vw;
 	height: 10vh;
-	top: 95vw;
-	left: 28vw;
+	top: 32vw;
+	right: 25vw;
 	font-family: 'Chango', cursive;
 }
 
-/*this is the decorative rectangle of the "writing 
-yourself a love letter"*/
+
+/*this is the rectangle of the "road trip"*/
 .decor.c
 {
-	background-color: black;
+	background-color: #F4F40F;
 	
 	padding: 1vh;
 	position: absolute;
 	width: 20vw;
 	height: 20vw;
-	top: 110vw;
-	left: 18vw;
+	top: 30vw;
+	left: 67vw;
 	z-index: -1;
 }
 
 
 
-
-
-
+/*these are the grid settings for the submenu of the 4 subsections*/
 .submenu{
     width: 90%;
     margin: 0 auto;
@@ -148,7 +146,8 @@ yourself a love letter"*/
 	font-size: 1.5vw;
 }
 
-/*this is to make sure that the link doesn't have a hyperlink color*/
+/*this is to make sure that the link 
+doesn't have a hyperlink color*/
 a{
 	color: inherit;
 	text-decoration: none;
@@ -157,7 +156,7 @@ a{
 /*these are the general settings for the submenu items */
 .obj{
     background-color: transparent;
-    color: #F4F40F;
+    color: #0DD3CD;
     text-shadow: 2px 2px black;
     padding: 10px;
     font-family: 'Playfair Display', serif;
@@ -183,25 +182,25 @@ a{
     justify-content: center;
     grid-column-start: 5;
    grid-column-end: 5;
-   color:black;
-    text-shadow: 2px 2px #F4F40F;
 
 }
 
 .obj1{
     display: flex;
     justify-content: center;
-    
+    color:black;
+    text-shadow: 2px 2px #0DD3CD;
     
 grid-column-start: 4;
    grid-column-end: 4;
 }
 
+
 /*these are the settings for each individual menu item when
 hovered over, changing its colors and responding to the user*/
 .obj4:hover{
    color: black;
-   text-shadow: 2px 2px #F4F40F;
+   text-shadow: 2px 2px #0DD3CD;
    grid-column-start: 7;
    grid-column-end: 7;
 }
@@ -209,14 +208,14 @@ hovered over, changing its colors and responding to the user*/
 
 .obj3:hover{
     color: black;
-   text-shadow: 2px 2px #F4F40F;
+   text-shadow: 2px 2px #0DD3CD;
    grid-column-start: 6;
    grid-column-end: 6;
 }
 
 .obj2:hover{
-   color: #F4F40F;
-   text-shadow: 2px 2px black;
+   color: black;
+   text-shadow: 2px 2px #0DD3CD;
    grid-column-start: 5;
    grid-column-end: 5;
     
@@ -224,8 +223,8 @@ hovered over, changing its colors and responding to the user*/
 
 .obj1:hover{
     
-    color: black;
-   text-shadow: 2px 2px #F4F40F;
+    color: #0DD3CD;
+   text-shadow: 2px 2px black;
    grid-column-start: 4;
    grid-column-end: 4;
 }
@@ -234,11 +233,7 @@ hovered over, changing its colors and responding to the user*/
 
 
 header{
-	/*background-image: url("Lemons.png");*/
-
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
-  /*background-size: cover;*/
+	
   font-size: 2.5vw;
   background-color: white;
   color: transparent;
@@ -249,10 +244,10 @@ body{
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
 	font-size: 1vw;
-	background-image: url("backgdWord.png");
+	background-color: #F7F497;
 	background-attachment: fixed;
 }
-/*I made the asset for the background of this page*/
+
 
 .title
 {
@@ -260,15 +255,15 @@ body{
 	color: black;
 	font-size: 4vw;
 	font-family: 'Chango', cursive;
-	text-shadow: 4px 4px #F4F40F;
+	text-shadow: 4px 4px #0DD3CD;
 	position: absolute;
 	top: 18vw;
-	left: 40vw;
+	left: 35vw;
 
-
+ 
 }
 
-/*this is the logo in the upper left corner*/
+
 .logo
 {
 position: absolute;
@@ -277,7 +272,6 @@ height: auto;
 top: 2vw;
 left: 4vh;
 }
-
 
 
 /*these next few buttons are for the standard menu 
@@ -301,9 +295,7 @@ transition: all 0.4s ease 0s;
 /*box-shadow: 25px 25px #FE6F8C;
 */font-size:1.5vw;
 
-
 }
-
 
 .example_c.about:hover{
   /*top: 650px;

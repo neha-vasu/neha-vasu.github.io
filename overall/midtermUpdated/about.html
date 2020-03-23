@@ -3,19 +3,35 @@
 	<head>
 		<title> About </title>
     <link rel="shortcut icon" type="image/png" href="loveYourselfLogo.png"/>
+
      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
      <meta charset="utf-8">
+
     <link href="https://fonts.googleapis.com/css?family=Chango|Concert+One|Fredoka+One|Playfair+Display|Rubik+Mono+One|Titan+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="about.css">
   </head>
   <header>
+<!-- this <a> is for the logo to lead you back to the first title page when clicked on 
 
+I also made the logo myself-->
     <a href = "main.html" > <img class = "logo" src = "loveYourselfLogo.png"> </a>
     <h1> hi </h1>
     <!-- <div class = "pos1"> -->
+     <!--  I tried flex initially but I think I got frustrated or panicked when it didn't work and since I was having a whole crisis even though it was more frustrating I decided them to place them manually -->
+
+
+     <!-- this next section is for the menu, off of some code I got online, when it hovers it transitions to different features, such as changing colors 
+     the source : https://www.fabriziovanmarciano.com/button-styles/ -->
     <div class="button_cont" align="right"><a class="example_c about"  href="about.html"  rel="nofollow noopener">  about </a></div>
 
 <div class="button_cont" align="right"><a class="example_c proj" href="projects.html"  rel="nofollow noopener">
+
+  <!-- I also tried to make a dropdown menu for the buttons that would
+  benefit from it but it didn't work after a lot of attempts -->
+
+  
  <!-- <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
@@ -40,26 +56,50 @@
 
 	<body>
      <main>
-    <div class = "flexbox">
+    <!-- this is the title of the page -->
     <h1 class = "title"> about</h1>
     <br/>
-  </div>
-  <img class = "socks" src = "about1.jpg">
+  
+  <img class = "aboutIMG" src = "about1.jpg">
     
-     <!-- <div class = "socks"> </div> -->
-  <div class = "flexLeft">
+   <!--  I initially wanted there to be one textbox with all the paragraphs and then an image to the right but then I split it into more divs so the black div that the text is in feels less overwhelming. -->
+
+
+     <!-- I also initially searched up the bold tag to make some words bold but the difference wasn't noticeable, I even tried using font-weight but it didn't work so I tried the strong tag. 
+
+     That didn't work either so I just changed the important words's color to yellow. -->
+
+
+  <div class = "flexLeft one">
     
     <p> <strong>Hi lovelies,</strong> Neha here! </p>
-    <p>This website is for human beans who are <strong>precious</strong> and beautiful but who struggle to see themselves that way. </p>
+    <p>This website is for human beans who are <strong>precious</strong> and <strong> beautiful </strong>but who struggle to see themselves that way. </p>
+</div>
+
+<div class = "flexLeft two">
     <p>
       I honestly <strong>doubt</strong> myself every single day a lot more than I should. I find myself constantly apologizing for myself even if it's not my fault or if it's not a big deal. I wonder if I low-key think of myself as a <strong>burden</strong>.
 </p>
+</div>
+<div class = "flexLeft three">
       <p> Although encouragement from others helps, in the end it's up to you to <strong>love yourself</strong>.</p> 
+
       <p>Because you are <strong>beautiful</strong>. You are <strong>enough</strong>.</p>
+    </div>
+
+    <!-- these boxes below are ones I had in initially but I commented out cause it was too much text or too many boxes.  -->
+
+    <!-- <div class = "four">
+      <p>Because you are <strong>beautiful</strong>. You are <strong>enough</strong>.</p>
+    </div> -->
+
       
      <!--  <p> You are <strong>talented</strong>.</p> --> <!-- <p>You are <strong>amazing</strong>. --><!-- </p> <p> --><!-- You are <strong>enough</strong>.</p>
        -->
-    </div>
+    
+    <!-- this mysterious box below is what gives a ton of extra scrolling space at the bottom.
+ -->
+    <div class = "z"> </div>
 
    
     </main>
