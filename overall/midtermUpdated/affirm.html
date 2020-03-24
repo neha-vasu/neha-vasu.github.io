@@ -14,6 +14,8 @@
     <a href = "main.html" > <img class = "logo" src = "loveYourselfLogo.png"> </a>
     <h1> hi </h1>
     <!-- <div class = "pos1"> -->
+<!-- 
+      this is the standard menu -->
     <div class="button_cont" align="right"><a class="example_c about"  href="about.html"  rel="nofollow noopener">  about </a></div>
 
 <div class="button_cont" align="right"><a class="example_c proj" href="projects.html"  rel="nofollow noopener">
@@ -49,9 +51,12 @@
 
 	<body>
      <main>
+
+     <!--  this section is composed of flex boxes with affirmations with the exception of the first box -->
       <h1 class = "title"> affirmations </h1>
      <div class = "submenu">
       <div class = "obj obj1"> 
+        <!-- this first box has instructions as well as the appearance of the box that would let the user enter an affirmation for themselves or someone they know. -->
 <p>Spread some love, be cheesy, cringey, direct, whatever it is, type it down here;P </p>
 <p>From: <input type="text" id="myText" value="your beautiful name"></p>
 <p>To: <input type="text" id="myText" value="their/your beautiful name"></p>
@@ -61,15 +66,15 @@
 <textarea id="w3mission" rows="4" cols="50">
 love love loooooove
 </textarea>
-
+<!-- these are some sources I used for this section and I also used javascript for this section for which the script is below -->
 
 
 <button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
 
-
-
+<!-- 
+here are the actual affirmations -->
 
 
        </div>
@@ -93,13 +98,13 @@ love love loooooove
 
   
 <div class = "z"> </div>
-
+<!-- this mysterious box below is what gives a ton of extra scrolling -->
     </main>
 
 
 
 
-
+<!-- here is the script for the function used in the first flex box mentioned earlier -->
     <script>
 function myFunction() {
   var x = document.getElementById("myText").value;

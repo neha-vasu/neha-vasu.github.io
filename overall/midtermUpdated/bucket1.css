@@ -1,4 +1,10 @@
 
+@media(max-width: 800px) {
+ 
+body{
+	background-color: black;
+}
+
 
 /*this is the pos of LA pin*/
 .LA
@@ -10,15 +16,22 @@
 	height: auto;
 transition: all .2s ease-in-out;
 }
+
+
+/*this is the expansion of LA pin on hover*/
 .LA:hover {
 	transition: all .2s ease-in-out;
 transform: scale(1.5);
 }
+
+/*this is to make sure that the link 
+doesn't have a hyperlink color*/
 a{
   color: inherit;
   text-decoration: none;
 }
 
+/*this is the text of the LA time*/
 .LAtext
 {
 	
@@ -36,12 +49,14 @@ a{
 	height: auto;
 transition: all .2s ease-in-out;
 }
+
+/*this is the expansion of the paris pin on hover*/
 .paris:hover {
 	transition: all .2s ease-in-out;
 transform: scale(1.5);
 }
 
-
+/*this is the text of the paris pin*/
 .Paristext
 {
 	
@@ -60,10 +75,14 @@ transform: scale(1.5);
 	height: auto;
 	transition: all .2s ease-in-out;
 }
+
+/*this is the expansion of the tokyo pin on hover*/
 .Tokyo:hover {
 	transition: all .2s ease-in-out;
 transform: scale(1.5);
 }
+
+/*this is the text of the tokyo pin*/
 .Tokyotext
 {
 	
@@ -72,25 +91,16 @@ transform: scale(1.5);
 	text-align: center;
 }
 
-@media(max-width: 800px) {
- 
-body{
-	background-color: black;
-}
 
-
-}
 
 header{
 	background-image: url("Lemons.png");
-
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
   background-size: cover;
   font-size: 3vw;
   color: transparent;
   
 }
+
 body{
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
@@ -106,34 +116,18 @@ body{
 	left: 25vh;
 	/*border: 1vw solid black;*/
 }
+
 strong{
 	color: #0F847E;
 	font-weight: 900;
 }
-.flexLeft
-{
-	position: absolute;
-	top: 60vw;
-	left: 3vw;
-	font-size: 1.25vw;
-	line-height: 1.25;
-	width: 60vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: justify-start;
-	margin-left: 15vw; 
-	color: white;
-	background-color: black;
-	padding: 5vh;
-}
+
+
+
 
 #title
 {
-	/*color: #0DD3CD;
-	font-size: 4vw;
-	text-shadow: 2px 2px #0F847E;
-	*/
+	
 	letter-spacing: 2vw;
 	color: #F4F40F;
 	font-size: 4vw;
@@ -143,20 +137,8 @@ strong{
 	top: 18vw;
 	left: 25vw;
 }
-.socks
-{
-	/*background-image: url(sockHeart.jpg);
-	background-size: cover;
-    background-color: #F4F40F;
-    background-blend-mode: multiply;*/
-	width: 35vh;
-	height: auto;
-	position: absolute;
-	top: 54vh;
-	left: 75vh;
-	z-index: 2;
-	/*border: 1vw solid black;*/
-}
+
+
 .logo
 {
 position: absolute;
@@ -166,6 +148,14 @@ top: 2vw;
 left: 4vh;
 }
 
+
+/*these next few buttons are for the standard menu 
+they transition between different colors for text, background and border
+I also made sure that the button that describes the page the 
+user is on is highlighted.
+
+I made the ease 0s so that the buttons respond quickly and are
+more lively.*/
 .example_c {
 color: black;
 
@@ -180,11 +170,6 @@ transition: all 0.4s ease 0s;
 /*box-shadow: 25px 25px #FE6F8C;
 */font-size:1.5vw;
 
-
-/*top: 650px;
-left: 1400px;
-position: absolute;*/
-
 }
 
 .example_c.about{
@@ -197,6 +182,8 @@ position: absolute;
 left: 30vw;
 top: 7vw;
 }
+
+
 .example_c.proj{
   /*top: 650px;
 left: 1450px;
@@ -207,6 +194,8 @@ position: absolute;
 left: 40vw;
 top: 7vw;
 }
+
+
 .example_c.bucket{
   /*top: 650px;
 left: 1450px;
@@ -218,6 +207,8 @@ position: absolute;
 left: 51vw;
 top: 7vw;
 }
+
+
 .example_c.bucket:hover{
   /*top: 650px;
 left: 1450px;
@@ -230,6 +221,8 @@ position: absolute;
 left: 51vw;
 top: 7vw;
 }
+
+
 .example_c.love{
   /*top: 650px;
 left: 1450px;
@@ -240,6 +233,8 @@ position: absolute;
 left: 63vw;
 top: 7vw;
 }
+
+
 .example_c:hover {
 color: #ffffff !important;
 background: black;

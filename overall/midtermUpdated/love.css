@@ -1,8 +1,11 @@
+/*this class is to move the text on the circle buttons down 
+so the entire word would fit*/
 .down {
   margin-top: 2vw;
 }
 
-
+/*this mysterious box below is what gives a ton of extra scrolling 
+space at the bottom.*/
 .z
 {
   background-color: transparent;
@@ -27,43 +30,16 @@ header{
   color: transparent;
   
 }
+
+
 body{
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
 	font-size: 1vw;
 	background-color: white;
 }
-.empty
-{
-  width: 20vw;
-  height: 30vh;
-  background-color: white;
-  color: white;
-  font-size: 5vh;
-}
-.flexbox
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	/*margin-right: -200px auto;*/
-	
 
-}
-strong{
-	color: #0F847E;
-	font-weight: 900;
-}
-.flexLeft
-{
-	width: 30vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: justify-start;
-	margin-left: 20vw; 
-}
+
 
 .title
 {
@@ -76,34 +52,10 @@ strong{
 	top: 18vw;
 	left: 28vw;
 
- /* background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
-  background-size: cover;
-  background-position: center;*/
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-  
-  /*-webkit-background-clip: text;
-  color: transparent; // set to transparent, otherwise won't see the background
-  
-  width: 1500px;
-  height: 1500px;
-  box-sizing: border-box;
-  font-size: 58px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 100px;
-  flex-shrink: 0;*/
+
 }
-.socks
-{
-	width: 40vh;
-	height: auto;
-	position: absolute;
-	top: 50vh;
-	left: 95vh;
-	border: 1vw solid black;
-}
+
+
 .logo
 {
 position: absolute;
@@ -113,6 +65,13 @@ top: 2vw;
 left: 4vh;
 }
 
+/*these next few buttons are for the standard menu 
+they transition between different colors for text, background and border
+I also made sure that the button that describes the page the 
+user is on is highlighted.
+
+I made the ease 0s so that the buttons respond quickly and are
+more lively.*/
 .example_c {
 color: black;
 
@@ -127,32 +86,10 @@ transition: all 0.4s ease 0s;
 /*box-shadow: 25px 25px #FE6F8C;
 */font-size:1.5vw;
 
-
-/*top: 650px;
-left: 1400px;
-position: absolute;*/
-
 }
-.eximple_c {
-color: black;
-
-text-decoration: none;
-text-shadow: 4px 4px #F4F40F;
-background: white;
-padding: 20px;
-/*border: 4px solid black !important;*/
-display: inline-block;
-transition: all 0.4s ease 0s;
-
-/*box-shadow: 25px 25px #FE6F8C;
-*/font-size:1.5vw;
 
 
-/*top: 650px;
-left: 1400px;
-position: absolute;*/
 
-}
 .example_c.about:hover{
   /*top: 650px;
 left: 1450px;
@@ -243,8 +180,34 @@ text-shadow: none;
 /*text-shadow: 2px 2px #F4F40F;*/
 }
 
+/*These next buttons are the menu options under a lil love that I placed
+by hand because they would not let me make them bigger when I adjusted
+them to get bigger when hovered over. This took lots of time but
+I got it to work. I made sure they don't have a border and there
+were gifs for each theme that worked.
+
+The 2 subsections I made these buttons for love yourself (selfLove)
+and affirmations (affirm) */
+.eximple_c {
+color: black;
+
+text-decoration: none;
+text-shadow: 4px 4px #F4F40F;
+background: white;
+padding: 20px;
+/*border: 4px solid black !important;*/
+display: inline-block;
+transition: all 0.4s ease 0s;
+
+/*box-shadow: 25px 25px #FE6F8C;
+*/font-size:1.5vw;
 
 
+/*top: 650px;
+left: 1400px;
+position: absolute;*/
+
+}
 .eximple_c.selfLove{
 color: white !important;
 text-transform: lowercase;
