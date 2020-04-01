@@ -1,0 +1,20 @@
+button {
+ padding: 300px;
+}
+h2{
+	color: white;
+	font-size: 50px;
+	font-family: 'Fredoka One', cursive;
+}
+
+button:hover {
+ border: 5px solid yellow;
+}
+.flexBox
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10vh;
+}
