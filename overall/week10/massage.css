@@ -1,0 +1,126 @@
+.up
+{
+	position: absolute;
+	top: 5vh;
+	left: 15vh;
+	z-index:4;
+
+}
+
+button {
+width: 85vh;
+height: 20vh;
+position: absolute;
+top: 30vh;
+left: -25vh;
+ background-color: white;
+ color: black;
+ font-size: 3vh;
+ border-radius: 10vh;
+ transform: rotate(90deg);
+ z-index:6;
+}
+
+body
+{
+	background-color: white;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+
+button:hover
+{
+	background-image: url('glitch.gif');
+	background-size: cover;
+}
+.seen 
+{
+	/*opacity: 0;*/
+	color: white;
+
+	text-shadow:2px 2px white;
+	text-align: center;
+	z-index:-1;
+}
+.TVimg
+{
+position: absolute;
+top: 70vh;
+left: 73vh;
+z-index:5;
+}
+
+.tv
+{
+	padding: 10vh;
+border: 7vh solid white;
+position: absolute;
+z-index: 4;
+width: 5vh;
+height:5vh;
+top: 58vh;
+left: 65vh;
+background-image: url('glitch2.gif');
+font-size: 4vh;
+
+
+
+}
+
+.under
+{
+	z-index: 3;
+	/*background-color: #34c6e0;*/
+	background-image: url('glitch2.gif');
+	padding: 5vh;
+	font-size: 3.25vh;
+
+	width: 60vh;
+	height: 60vh;
+	position: absolute;
+	top: 45vh;
+	left: 55vh;
+	line-height: 5vh;
+	box-sizing: border-box;
+
+
+}
+
+.under2
+{
+	z-index: 2;
+	background-color: white;
+	width: 100vh;
+	height: 100vh;
+	position: absolute;
+	top: 20vh;
+	left: 35vh;
+	padding: 5vh;
+	font-size: 6vh;
+	line-height: 8vh;
+	box-sizing: border-box;
+	text-shadow: 4px 4px black;
+
+
+
+}
+.under3
+{
+	z-index: 1;
+	background-image: url('glitch2.gif');
+	/*background-color: #079fba;*/
+	width: 140vh;
+	height: 120vh;
+	position: absolute;
+	top: 0vh;
+	left: 15vh;
+	padding: 8vh;
+	font-size: 8vh;
+	line-height: 8vh;
+	box-sizing: border-box;
+	text-shadow: 8px 8px black;
+
+	
+}
