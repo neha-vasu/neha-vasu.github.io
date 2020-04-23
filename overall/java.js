@@ -17,7 +17,7 @@ function isClicked1(){
 	console.log("clicked");
 	// theTxt.textContent.textDecorationStyle = "dashed";
 	theBody.style.backgroundColor = "plum";
-	theTxt.textContent = "ruff";
+	theTxt.textContent = "woof";
 	firstButton.style.backgroundImage= "url(https://static.boredpanda.com/blog/wp-content/uploads/2019/05/shiba-inu-dog-flower-fields-photography-masayo-ishizuki-japan-24-5cdbf37794320__700.jpg)";
 firstButton.style.backgroundSize= "cover";
 }
@@ -26,7 +26,7 @@ function isClicked2(){
 	console.log("clicked2");
 	// theTxt.textContent.textDecorationStyle = "dashed";
 	theBody.style.backgroundColor = "gold";
-	theTxt.textContent = "ruff ruff ";
+	theTxt.textContent = "woof woof ";
 	secondButton.style.backgroundImage= "url(https://bbs.chinadaily.com.cn/data/attachment/forum/201905/17/164145mdpbbz718fo7d1d9.jpg)";
 secondButton.style.backgroundSize= "cover";
 }
@@ -35,7 +35,7 @@ function isClicked3(){
 	console.log("clicked3");
 	// theTxt.textContent.textDecorationStyle = "dashed";
 	theBody.style.backgroundColor = "firebrick";
-	theTxt.textContent = "ruff ruff ruff ";
+	theTxt.textContent = "woof woof woof";
 	thirdButton.style.backgroundImage= "url(https://static.boredpanda.com/blog/wp-content/uploads/2019/05/shiba-inu-dog-flower-fields-photography-masayo-ishizuki-japan-18-5cdbf368ca280__700.jpg)";
 thirdButton.style.backgroundSize= "cover";
 }
