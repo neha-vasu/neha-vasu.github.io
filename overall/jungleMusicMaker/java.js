@@ -209,6 +209,8 @@ function clearSong() {
     $("#notes").empty();
 }
 
+// this is for the instructions box in the left upper corner that shows and hides
+// insrtuctions when clicked
 $('#infoButton').click (e => displayInfo());
 function displayInfo() {
 	$("#infoButton").click(function() {

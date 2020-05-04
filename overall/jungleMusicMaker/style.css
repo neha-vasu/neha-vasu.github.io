@@ -67,8 +67,8 @@ body {
 	width: 100vw;
 }
 
-there is a division that we made so that the top half of the page has a jungle 
-background while the
+/*there is a division that we made so that the top half of the page has a jungle 
+background while the bottom half is white so the buttons can pop on it*/
 #topHalfOfPage {
 	position: absolute;
 	top: 0vw;
@@ -86,7 +86,8 @@ background while the
 	border: white;
 
 }
-
+ /*h3 was a previous element we had to say "Jungle Music Maker" before we decided to
+ make a separate front page displaying the title and instructions*/
 h3 {
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 5vh;
@@ -105,6 +106,9 @@ text-shadow: 1vw 1vh black;
 transition: all 0.3s ease-in 0.5s;
 
 }
+
+/*the same is true with the whiteRectangle div that was also a stylistic element we were
+testing before deciding to use a front coverintro page*/
 .whiteRectangle {
 	background-attachment: fixed;
 	position: absolute;
@@ -145,31 +149,34 @@ transition: all 0.5s ease 0s;
 }
 
 button:hover {
-	background-color: #fd6e8e;
+	background-color: black;
 	color: white;
-	text-shadow: 0.1vw 0.1vw black;
+	text-shadow: 0.1vw 0.1vw #fd6e8e;
 }
 .playClearButton {
 	background-color: black;
 	color: white;
-	text-shadow: 0.1vw 0.1vw black;
+	text-shadow: 0.1vw 0.1vw #fd6e8e;
 /*background-color: black;
 color: white;
 text-shadow: 0.1vw 0.1vw #fd6e8e;*/
 }
 .playClearButton:hover {
 	background-color: #fd6e8e;
-	color: black;
-	text-shadow: 0.1vw 0.1vw #fd6e8e;
+	/*color: black;*/
+	/*text-shadow: 0.1vw 0.1vw #fd6e8e;*/
 	color: white;
-	text-shadow: 0.1vw 0.1vw #fd6e8e;
+	text-shadow: 0.1vw 0.1vw black;
 }
+
+/*these are the rows that the buttons are lined on */
 .row1, .row2, .row3 {
 	display: flex;
 	margin: 0.05vw;
 	justify-content: center;
 }
 
+/*this flexbox lines the rows up in columns using flex*/
 .flexbox {
 	/*position: absolute;
 	top: 50vw;
@@ -177,6 +184,8 @@ text-shadow: 0.1vw 0.1vw #fd6e8e;*/
 	display:flex;
 	flex-direction: column;
 }
+
+/*this grid is where the icons pop up when the buttons are clicked.*/ 
 .soundIconGrid {
 	padding-top: 3vh;
 	padding-bottom: 3vh;
@@ -194,6 +203,7 @@ text-shadow: 0.1vw 0.1vw #fd6e8e;*/
 	background-color: white;
 	opacity: 0.3;
 }*/
+/*these are the settings to display the staff*/
 
 .staff {
 	display: grid;
@@ -210,37 +220,45 @@ text-shadow: 0.1vw 0.1vw #fd6e8e;*/
 	background-size: 50vw 100%;
 }
 
+/*this helps position and size the treble clef*/
 #treble {
 	margin-top: -2vh;
 	margin-left: 1vw;
 	height: 14vh;
 }
 
+/*this helps size the staff*/
 .staff img {
 	height: 12vh;
 	margin-top: -2.5vh;
 }
 
+/*this helps position the unordered list of notes onto the staff*/
 #notes {
 	margin-left: -5vw;
 }
 
+/*the display inline is helpful to make sure that the notes are in line 
+with one another*/
 #notes li {
 	/*margin-left: -5vw;*/
 	display: inline;
 	list-style: none;
 }
 
+/*infoBox, infoButton are both the instructions in the left upper corner so when the
+infoButton is cliked the infoBox shows up*/
 #infoBox{
 	background-color: white;
 	color: black;
 	width: 20vw;
-	height: 11vw;
+	height: 10vw;
 	font-family:'PT Sans Caption', sans-serif;
 	position: absolute;
 	z-index: 3;
 	top: 5vw;
 	left: 2vw;
+	padding: 0.5vw;
 	border-radius: 1vw;
 	display: none;
 	text-align:center;

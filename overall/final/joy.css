@@ -1,0 +1,125 @@
+.back
+{
+	left: 3vw;
+	transform: rotate(-90deg);
+	position: absolute;
+	width: 3vw;
+}
+
+body 
+{
+	background-color: #29d3c2;
+	background-image: url('drawing/yellowLoopsBackgd.png');
+	background-size: cover;
+	background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+
+}
+
+body {
+  margin: 0px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+div#background {
+  height: 700px;
+  width: 100%;
+  /*background-image: url('drawing/yellowLoopsBackgd.png');
+  background-color: white;*/
+  padding-top: 20px;
+}
+
+div#gallery {
+  width: 1200px;
+  margin: auto;
+}
+
+
+#background img {
+  height: 250px;
+  margin: 0px;
+}
+
+#background figure {
+  float: left;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+  margin: 20px;
+  box-shadow: 1px 2px 3px black;
+}
+
+figure.pic1 {
+  -webkit-transform : rotate(-10deg);
+  z-index: 1;
+}
+
+figure.pic2 {
+  -webkit-transform : rotate(15deg);
+  z-index: 2;
+}
+
+figure.pic3 {
+  -webkit-transform : rotate(-25deg);
+  z-index: 1;
+}
+
+
+figure.pic4 {
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+figure.pic5 {
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+figure.pic6 {
+  -webkit-transform : rotate(-8deg);
+  z-index:1;
+}
+
+/*figure.pic7 {
+  -webkit-transform : rotate(2deg);
+  z-index:1;
+}
+
+figure.pic8 {
+  -webkit-transform : rotate(-13deg);
+  z-index:1;
+}
+
+figure.pic9 {
+  -webkit-transform : rotate(-7deg);
+  z-index:1;
+}
+
+figure.pic10 {
+  -webkit-transform : rotate(2deg);
+  z-index:1;
+}
+
+figure.pic11 {
+ -webkit-transform : rotate(-3deg);
+  z-index:1;
+}
+*/
+#background figure:hover {
+  box-shadow: 5px 10px 100px black;
+  -webkit-transform: scale(1.3,1.3);
+  z-index: 20;
+}

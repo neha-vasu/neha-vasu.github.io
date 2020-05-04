@@ -1,0 +1,68 @@
+body {
+  background-color: #256772;
+  /*background-image: url('drawing/mainBackgd7.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 95%;
+  /*background-size: cover;*/
+  /*background-attachment: fixed;
+  animation: 10000ms ease-in-out infinite opacity-change;
+  overflow: hidden;*/
+}
+
+.flex {
+	display: flex;
+	flex-direction:column;
+}
+.upArrow
+{
+	display: flex;
+	position: absolute;
+	width: 15%;
+	height: auto;
+	top: 20vw;
+	left: 90vw;
+}
+.downArrow
+{
+	display: flex;
+	position: absolute;
+	width: 1vw;
+	height: auto;
+	top: 31vw;
+	left: 90vw;
+}
+/*.size
+{
+
+	position: absolute;
+	width: 80%;
+	height: auto;
+}*/
+
+
+#notes {
+	margin-left: -5vw;
+	width: 2vw;
+	height: auto;
+}
+
+#notes li {
+	/*margin-left: -5vw;*/
+	display: inline;
+	list-style: none;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-start;
+}
+.rainGif
+{
+	background-image: url('drawing/rain2.gif');
+	background-size: cover;
+	position: absolute;
+	width: 20vw;
+	/*height:4vw;*/
+}
