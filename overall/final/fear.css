@@ -1,0 +1,621 @@
+/*
+button
+{
+	width: 10vw;
+height: auto;
+position: absolute;
+}*/
+
+
+
+
+@import url(https://fonts.googleapis.com/css2?family=Creepster&display=swap);
+:root {
+    /* Base font size */
+    font-size: 10px;
+    /* Set neon color */
+   /*  --neon-text-color: #8644ad; 
+     --neon-border-color: #8644ad; */
+    --neon-text-color: #8644ad;
+    --neon-border-color: rgb(0, 0, 255);
+}
+
+body {
+    font-family: 'Creepster', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    min-height: 100vh;
+    background-image: url(drawing/purple5.gif);
+    background-size: cover;
+    /*cursor:url(drawing/ghost.gif), auto;*/
+}
+/*
+button
+{
+	background-image:url(drawing/broken heart.gif);
+}
+*/
+a {
+  text-decoration: none;
+}
+
+/*a:hover {
+   animation: flicker 1.5s infinite alternate; 
+  transform: scale(1.5);
+}*/
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 1s;
+  transform-style: preserve-3d;
+position: absolute;
+top: 3vw;
+left: 33vw;
+  
+}
+
+/* hide back of pane during swap */
+/* front pane, placed above back */
+.front {
+  backface-visibility: hidden;
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+h1 {
+    font-size: 10rem;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    padding: 6rem 6rem 6rem 6rem;
+   /* border: 0.01rem groove #fff;
+    border-radius: 2rem;*/
+    /* text-transform: uppercase; */
+    animation: flicker 1.5s infinite alternate;
+}
+
+h1::-moz-selection {
+   /* background-color: var(--neon-border-color);*/
+    color: var(--neon-text-color);
+}
+
+h1::selection {
+   /* background-color: var(--neon-border-color);*/
+    color: var(--neon-text-color);
+}
+
+h1:focus {
+    outline: none;
+}
+
+
+/* Animate neon flicker */
+
+@keyframes flicker {
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: -0.2rem -0.2rem 1rem #8644ad, 0.2rem 0.2rem 1rem #8644ad, 0 0 2rem var(--neon-text-color), 0 0 4rem var(--neon-text-color), 0 0 6rem var(--neon-text-color), 0 0 8rem var(--neon-text-color), 0 0 10rem var(--neon-text-color);
+        /*box-shadow: 0 0 .5rem #8644ad, inset 0 0 .5rem #8644ad, 0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color), 0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);*/
+    }
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+
+
+
+.fear:hover
+{
+	transform: scale(2);
+	transition-duration: 1.2s;
+}
+#ghost{
+	width: 10vw;
+position: absolute;
+top: 3vw;
+left: 3vw;
+}
+
+#cart
+{
+	position: absolute;
+	top: 25vw;
+	left:15vw;
+	width: 28vw;
+	height:auto;
+}
+
+#shelf
+{
+	width: 40vw;
+	height:auto;
+	position: absolute;
+	top: 20vw;
+	left:31vw;
+	z-index: -1;
+}
+
+#brokenHeart
+{
+	width: 10vw;
+	height:auto;
+	position: absolute;
+	top: 20vw;
+	left: 35vw;
+}
+
+#trapped
+{
+	width: 7vw;
+	height:auto;
+	position: absolute;
+	top: 34vw;
+	left: 38vw;
+}
+
+#child
+{
+	width: 10vw;
+	height:auto;
+	position: absolute;
+	top: 35vw;
+	left: 58vw;
+}
+
+#awkward
+{
+	width: 10vw;
+	height:auto;
+	position: absolute;
+	top: 20vw;
+	left: 58vw;
+}
+
+
+#failure
+{
+	width: 5vw;
+	height:auto;
+	position: absolute;
+	top: 29vw;
+	left: 50vw;
+}
+
+.open
+{
+	position: absolute;
+	top: 20vw;
+	left: 2vw;
+
+}
+
+.backArrow
+{
+  left: 3vw;
+  top:1vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  width: 3vw;
+}
+
+
+
+
+#modal5 {
+  display: none;
+  position: absolute; 
+  z-index: 10;
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-content5 {
+  position: relative; 
+  background-color: white;
+  padding: 20px; 
+  margin: auto; 
+  width: 20%;  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+button{
+  background-color: white;
+color: black;
+text-shadow: 0.1vw 0.1vw #9df8ff;
+width:10vw;
+height: 2.5vw;
+margin: 0.2vw;
+border-radius: 1vw;
+font-family: futura-pt-condensed, sans-serif;
+border: none;
+font-size: 3vw;
+transition: all 0.5s ease 0s;
+
+}
+
+
+h2{
+  text-align: center;
+/*  display: flex;*/
+  font-family: 'Creepster', cursive;
+  font-size: 2vw;
+  color: white;
+}
+
+p
+{
+  /*text-align: center;
+  text-align: center;*/
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 1vw;
+}
+
+.body
+{
+  font-family: futura-pt-condensed, sans-serif;
+}
+/*.back
+{
+  left: 3vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  width: 3vw;
+}*/
+
+#modal5 {
+  display: none;
+  position: absolute; 
+  z-index: 10;
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+#modal-content5 {
+   position: relative; 
+  background-color:#891C8C;
+  padding: 20px; 
+  margin: auto; 
+  width: 20%; 
+  top: 0vw; 
+   border: 1vw solid #891C8C/*#379BB3*/;
+  border-radius: 1vw 1vw;
+  /*text-align:center;*/
+  color: #340935;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+button{
+  background-color: transparent;
+color: black;
+text-shadow: 0.1vw 0.1vw #9df8ff;
+width:10vw;
+height: 2.5vw;
+margin: 0.2vw;
+border-radius: 1vw;
+/*font-family: futura-pt-condensed, sans-serif;*/
+border: none;
+font-size: 3vw;
+transition: all 0.5s ease 0s;
+
+}
+
+#modal {
+  display: none;
+  position: absolute; 
+  z-index: 10;
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-content {
+   position: relative; 
+  background-color:#891C8C;
+  padding: 20px; 
+  margin: auto; 
+  width: 20%; 
+  top: 0vw; 
+   border: 1vw solid #891C8C/*#379BB3*/;
+  border-radius: 1vw 1vw;
+  /*text-align:center;*/
+  color: #340935;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+#modal-btn
+{
+  
+position: absolute;
+top: 28vw;
+left: 68vw;
+font-size: 3vw;
+transform: rotate(-45deg);
+
+}
+
+#modal-btn:hover
+{
+
+}
+
+#close-btn {
+  float: right;
+  
+ color: black; 
+  font-size: 24px;  
+  font-weight: bold;
+
+}
+#close-btn:hover {
+  color: white;
+}
+
+
+#modal-btn5
+{
+  
+position: absolute;
+top: 23vw;
+left: 25vw;
+transform: rotate(35deg);
+
+}
+
+
+#close-btn5 {
+  float: right;
+  
+    
+ color: black; 
+  font-size: 24px;  
+  font-weight: bold;
+}
+#close-btn5:hover {
+  color: white;
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+#modal2 {
+  display: none;
+  position: absolute; 
+  z-index: 10;
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-content2 {
+   position: relative; 
+  background-color:#891C8C;
+  padding: 20px; 
+  margin: auto; 
+  width: 20%; 
+  top: 0vw; 
+   border: 1vw solid #891C8C/*#379BB3*/;
+  border-radius: 1vw 1vw;
+  /*text-align:center;*/
+  color: #340935;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+#modal-btn2
+{
+  
+position: absolute;
+top: 48vw;
+left: 65vw;
+font-size: 3vw;
+transform: rotate(-35deg);
+
+}
+
+#modal-btn2:hover
+{
+
+}
+
+#close-btn2 {
+  float: right;
+  
+   
+ color: black; 
+  font-size: 24px;  
+  font-weight: bold;
+}
+  font-weight: bold;
+}
+#close-btn2:hover {
+  color: white;
+}
+
+#modal3 {
+  display: none;
+  position: absolute; 
+  z-index: 10;
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-content3 {
+  position: relative; 
+  background-color:#891C8C;
+  padding: 20px; 
+  margin: auto; 
+  width: 20%; 
+  top: 0vw; 
+   border: 1vw solid #891C8C/*#379BB3*/;
+  border-radius: 1vw 1vw;
+  /*text-align:center;*/
+  color: #340935;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+#modal-btn3
+{
+  
+position: absolute;
+top: 15vw;
+left: 45vw;
+font-size: 3vw;
+transform: rotate(10deg);
+
+}
+
+
+
+#close-btn3 {
+  float: right;
+  
+    
+ color: black; 
+  font-size: 24px;  
+  font-weight: bold;
+
+}
+#close-btn3:hover {
+  color: white;
+}
+
+#modal4 {
+  display: none;
+  position: absolute; 
+  z-index: 10;
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-content4 {
+  position: relative; 
+  background-color:#891C8C;
+  padding: 20px; 
+  margin: auto; 
+  width: 20%; 
+  top: 0vw; 
+   border: 1vw solid #891C8C/*#379BB3*/;
+  border-radius: 1vw 1vw;
+  /*text-align:center;*/
+  color: #340935;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+#modal-btn4
+{
+  
+position: absolute;
+top: 43vw;
+left: 15vw;
+font-size: 3vw;
+transform: rotate(-60deg);
+
+}
+
+
+
+#close-btn4 {
+ float: right;
+  
+   
+ color: black; 
+  font-size: 24px;  
+  font-weight: bold;
+  font-weight: bold;
+}
+#close-btn4:hover {
+  color: white;
+}
+
+
+
+
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}1;

@@ -3,95 +3,203 @@
 <head>
   <meta charset="UTF-8">
   <title>Sadness</title>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="sad.css">
 <link rel="stylesheet" href="https://use.typekit.net/aem3jkm.css">
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
+<!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+<link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
 
  <script src="sad2.js" defer ></script>
 </head>
 <body>
+<!-- 
+<div id="modal-btn5" class="modal5">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+ Link to open the modal -->
+<!-- <p><a href="#ex1" rel="modal:open"><button id = "mod"> Pathetic </button></a></p>  -->
 
-<a href = "index.html"><img class = "back" src = "drawing/upArrow1.png"></a>
+<!-- <div id="modal-btn2" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div> -->
+<!-- Link to open the modal -->
+<!-- <p><a href="#ex2" rel="modal:open"><button> Burden </button></a></p>
 
-<button id = "modal-btn2" class = "hvr-wobble-vertical"> lonely </button>
-<div class="modal2">
-  <div class="modal-header2">
-    <span class="close-btn2">&times;</span>
+<div id="ex3" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div> -->
+<!-- Link to open the modal -->
+<!-- <p><a href="#ex3" rel="modal:open"><button> Useless </button></a></p>
+
+<div id="ex4" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div> -->
+<!-- Link to open the modal -->
+<!-- <p><a href="#ex4" rel="modal:open"><button> Trapped </button></a></p>
+
+<div id="ex5" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div> -->
+<!-- Link to open the modal -->
+<!-- <p><a href="#ex5" rel="modal:open"><button> Open Modal</button></a></p> -->
+
+<a href = "sadIntro.html"><img class = "back" src = "drawing/upArrow1.png"></a>
+
+<button id = "modal-btn" class = "hvr-wobble-vertical"> longing </button>
+<div id="modal">
+  <div id="modal-header">
+    
     <h1></h1>
   </div>
-  <div class="modal-content2">
-    <p>this is the text</p>
+  <div id="modal-content">
+    <span id="close-btn">&times;</span>
+    <h2> Longing </h2>
+    <p>I can spend a few hours alone but I cannot spend more than a day completely alone. </p>
+    <p>I start feeling numb. Feeling sick.</p>
+    <p> Digging a hole for my insecurities and immersing myself in them.</p>
+    <p> Or just nauseous. </p>
+    <p> I’m conscious of my lack of energy without others being around.</p>
+     <p>There are many times when I miss people so much I cry.</p>
+     <p> I have a lot of love to throw at humans ahaha <3 </p>
    
   </div>
-  <div class="modal-footer2">
+  <div id="modal-footer">
+    <h2></h2>
+  </div>
+</div>
+
+ <button id = "modal-btn2" class = "hvr-wobble-vertical"> worry </button>
+<div id="modal2">
+  <div id="modal-header2">
+   
+    <h1></h1>
+  </div>
+  <div id="modal-content2">
+     <span id="close-btn2">&times;</span>
+    <h2>Worry</h2>
+    
+  <p>Yes I am anxious a lot about myself but I often worry about others. </p>
+   <p> I am always walking in other people’s shoes. </p>
+   <p>I know I sound nosy and dumb but I can’t help it.</p>
+   <p> If people I love are sad, so am I.</p>
+   <p> I cannot help but worry for them, try to comfort them or give them solutions. 
+   </p> 
+   <p>Many days hours will go by that I spent thinking of them, messaging them or texting them in worry. </p>
+
+
+
+   
+  </div>
+  <div id="modal-footer2">
     <h2></h2>
   </div>
 </div>
 
 
-<button id = "modal-btn3" class = "hvr-wobble-vertical"> trapped </button>
-<div class="modal3">
-  <div class="modal-header3">
-    <span class="close-btn3">&times;</span>
+<button id = "modal-btn3" class = "hvr-wobble-vertical"> messy</button>
+<div id="modal3">
+  <div id="modal-header3">
+
     <h1></h1>
   </div>
-  <div class="modal-content3">
-    <p>this is the text</p>
+  <div id="modal-content3">
+     <span id="close-btn3">&times;</span>
+    <h2>Messy</h2>
+    
+    <p> I didn’t realize that this was one of my deepest insecurities.</p> <p>Often, I love being a mess and scatterbrained. </p>
+    <p>It's as though I can journey through endless visions.</p>
+    <p> My soul is independent but I leave a trail of mess wherever I go.</p> 
+    <p>Details are difficult. I can’t plan things properly.</p>
+
+    <p> I sometimes feel like I'm just falling apart...</p>
+
+
    
   </div>
-  <div class="modal-footer3">
+  <div id="modal-footer3">
     <h2></h2>
   </div>
 </div>
 
 <button id = "modal-btn4" class = "hvr-wobble-vertical"> burden </button>
-<div class="modal4">
-  <div class="modal-header4">
-    <span class="close-btn4">&times;</span>
+<div id="modal4">
+  <div id="modal-header4">
+    
     <h1></h1>
   </div>
-  <div class="modal-content4">
-    <p>this is the text</p>
+  <div id="modal-content4">
+    <span id="close-btn4">&times;</span>
+    <h2>Burden</h2>
+    
+    <p> All I do is annoy people.</p>
+    <p> I sometimes don't like when people do sweet things for me. </p>
+    <p>I feel bad. I constantly apologize for myself like an idiot, even if I’ve done nothing wrong. </p>
+     <p>My parents and friends have joked that I should just get a sweater that says “SORRY” on it because I’m always sorry. </p>
+     <p>About freaking everything. </p>
+
+ 
    
   </div>
-  <div class="modal-footer4">
+  <div id="modal-footer4">
     <h2></h2>
   </div>
 </div>
 
 
 
-<button id="modal-btn" class = "hvr-wobble-vertical"> pathetic </button>
-<div class="modal">
-  <div class="modal-header">
-    <span class="close-btn">&times;</span>
+<button id="modal-btn5" class = "hvr-wobble-vertical"> pathetic </button>
+<div id ="modal5">
+
+  <div id ="modal5-header">
+    <!-- <span id ="close-btn5">&times;</span> -->
     <h1></h1>
   </div>
-  <div class="modal-content">
+  <div id="modal-content5">
+    <span id ="close-btn5">&times;</span>
     <h2>Pathetic</h2>
-    <br/>
-    <p> I feel pathetic because </p>
+    
+    <p> I often feel like I’m not getting any work done.</p>
+    <p> I’m not even great at what I’m doing. I’m failing over and over again.</p>
+    <p> I’m not talented or intelligent. 
+    </p>
+    <p>
+      Everything I make sucks.
+      </p>
+      <p> I’m such a terrible person. Why do I even have friends? </p>
+      <p>There were some times I wasn’t able to be there for my friends when they needed me.. </p>
+ </p>
    
   </div>
-  <div class="modal-footer">
+  <div id="modal-footer">
     <h2></h2>
   </div>
 </div>
+	<!-- parallax
+	 <script src="sadness.js" defer></script> -->
 
-	<!-- parallax-->
-	 <!-- <script src="sadness.js" defer></script> -->
-
-
-<!-- <div class = "flex">
-<div class = "upArrow" onclick="upClick()"> -->
-	<!-- <a id = "upArrow" ">
+<!-- 
+<div class = "flex">
+<div class = "upArrow" onclick="upClick()">
+	<a id = "upArrow" >
 <img class = "size" src = "drawing/upArrow1.png">
-</a>
+</a> -->
 
 
-<a id = "downArrow" onclick="downClick()">
+<!-- <a id = "downArrow" onclick="downClick()">
 
 	<img class = "size" src = "drawing/downArrow1.png">
 </a> -->
@@ -117,12 +225,12 @@
 <img class  ="eye3" src = "drawing/eye2.png"> -->
 	<!-- <img class  ="eye4" src = "drawing/eye2.png">
 	<img class  ="eye5" src = "drawing/eye2.png"> -->
-	<img class  ="eye eye6" src = "drawing/eye2.png">
-	<img class  ="eye eye7" src = "drawing/eye2.png">
+	<img class ="eye" id = "eye6" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye7" src = "drawing/eye2.png">
 
-<img class  ="eye eye8" src = "drawing/eye2.png">
-	<img class  ="eye eye9" src = "drawing/eye2.png">
-	<img class  ="eye eye10" src = "drawing/eye2.png">
+<img class  ="eye"  id = "eye8" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye9" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye10" src = "drawing/eye2.png">
 	<!-- <img class  ="eye2" src = "drawing/eye2.png">
 	<img class  ="eye1" src = "drawing/eye2.png">
 	<img class  ="eye2" src = "drawing/eye2.png"> -->
@@ -130,24 +238,24 @@
 	<!-- <img class  ="eye1" src = "drawing/eye2.png">
 	<img class  ="eye1" src = "drawing/eye2.png">
 	 -->
-<img class  ="eye eye11" src = "drawing/eye2.png">
-	<img class  ="eye eye12" src = "drawing/eye2.png">
-	<img class  ="eye eye13" src = "drawing/eye2.png">
+<img class  ="eye" id = "eye11" src = "drawing/eye2.png">
+	<img class  ="eye" id ="eye12" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye13" src = "drawing/eye2.png">
 
-<img class  ="eye eye14" src = "drawing/eye2.png">
-	<img class  ="eye eye15" src = "drawing/eye2.png">
+<img class  ="eye" id = "eye14" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye15" src = "drawing/eye2.png">
 	
-<img class  ="eye eye16" src = "drawing/eye2.png">
-<img class  ="eye eye17" src = "drawing/eye2.png">
+<img class  ="eye" id= "eye16" src = "drawing/eye2.png">
+<img class  ="eye" id = "eye17" src = "drawing/eye2.png">
 
 
 
-      <img class  ="eye eye1" src = "drawing/eye2.png">
-	<img class  ="eye eye2" id = "eye2" src = "drawing/eye2.png">
+      <img class  ="eye" id = "eye1" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye2" id = "eye2" src = "drawing/eye2.png">
 
-<img class  ="eye eye3" src = "drawing/eye2.png">
-<img class  ="eye eye4" src = "drawing/eye2.png">
-	<img class  ="eye eye5" src = "drawing/eye2.png">
+<img class  ="eye" id = "eye3" src = "drawing/eye2.png">
+<img class  ="eye" id = "eye4" src = "drawing/eye2.png">
+	<img class  ="eye" id = "eye5" src = "drawing/eye2.png">
    
 <!-- </div> -->
 
@@ -164,7 +272,7 @@
 	<img src = "drawing/downArrow1.png"/>
 </a> -->
 
-<img id = "umbrella" src = "drawing/umbrella1.png">
+<img id = "umbrella" src = "drawing/umbrellaRain.png">
 <img id = "rain1" src = "drawing/rain2.gif">
 <img id = "rain2" src = "drawing/rain2.gif"> 
  <img id = "rain3" src = "drawing/rain2.gif"> 
@@ -195,7 +303,9 @@
 });
 </script>
 	 -->
-
+<audio id="player" autoplay loop>
+        <audio id="player" autoplay controls><source src="drawing/rain.mp3" type="audio/mp3"></audio>
+      </audio>
 
 </body>
 </html>

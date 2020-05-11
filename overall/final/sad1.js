@@ -134,49 +134,61 @@ function logMessage(str){
 // //     }
 
 
-
+var count = 0;
 
 
 // //   }
 
-//   function upClick()
-// {
-// 	logMessage("upClick");
-// 	$('#upArrow').click(function () {
-//     count += 1;
-//     // if (count == 1) {
-//     //   // come code
-//     //   logMessage("rain1")
-//     //   changeOpacity1();
-//     //   opacity2();
-//     //   opacity3();
-//     // }
+  function upClick()
+{
+	logMessage("upClick");
+	$('#upArrow').click(function () {
+    count += 1;
+    // if (count == 1) {
+    //   // come code
+    //   logMessage("rain1")
+    //   changeOpacity1();
+    //   opacity2();
+    //   opacity3();
+    // }
 
-// })
-// 	if (count == 1) {
-//       // come code
-//       // logMessage("rain1")
-//       changeOpacity1();
-//       // opacity2();
-//       // opacity3();
-//     }
+})
+	if (count === 1) {
+		logMessage("1 click");
+      // come code
+      // logMessage("rain1")
+      // changeOpacity1();
+      // opacity2();
+      // opacity3();
+      $("#rain1").css("display", "");
+      $("#rain2").css("display", "none");
+      $("#rain3").css("display", "none");
+    }
 
-//     else if (count == 2) {
-//       // come code
-//       changeOpacity2();
-//       // changeOpacity1();
-//       // opacity3();
-//     }
+    else if (count === 2) {
+    	logMessage("2 clicks");
+      // come code
+      // changeOpacity2();
+      // changeOpacity1();
+       $("#rain1").css("display", "");
+      $("#rain2").css("display", "");
+      $("#rain3").css("display", "none");
+      // opacity3();
+    }
 
 
-//     else if (count == 3) {
-//       // come code
-//       changeOpacity3();
-//   }
-//       // changeOpacity2();
-//       // changeOpacity1();
-//     // }
-// }
+    else if (count === 3) {
+    	logMessage("3 clicks");
+      // come code
+      // changeOpacity3();
+      $("#rain1").css("display", "");
+      $("#rain2").css("display", "");
+      $("#rain3").css("display", "");
+  }
+      // changeOpacity2();
+      // changeOpacity1();
+    // }
+}
 
 // function downClick()
 // {

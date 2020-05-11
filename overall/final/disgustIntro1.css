@@ -1,0 +1,73 @@
+
+
+	/* text animation */
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.Absolute-Center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#introPic{
+	position: absolute;
+	top: 18vw;
+	left: 33vw;
+	width: 25vw;
+	height: auto;
+	z-index:-1;
+animation: fadeInUp 1.5s ease-in-out 0.5s forwards;
+
+}
+
+
+.backArrow
+{
+  left: 3vw;
+  top:1vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  width: 3vw;
+}
+
+.forwardArrow
+{
+  left: 95vw;
+  top:1vw;
+  transform: rotate(90deg);
+  position: absolute;
+  width: 3vw;
+}
+
+body
+{
+	color: #8CE553;
+	font-family: futura-pt-condensed, sans-serif;
+}
+
+h1{
+	opacity: 0; 
+  animation: fadeInUp 1.5s ease-in-out 0.5s forwards;
+  font-size: 10vw;
+  position: absolute;
+  top: 3vw;
+  left: 10vw;
+  
+}
+
